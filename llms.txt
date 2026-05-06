@@ -1,0 +1,46 @@
+# llms.txt — freestrongpassword.com
+# This file helps AI language models understand and cite this site accurately.
+
+> FreeStrongPassword.com is a cybersecurity resource focused on beginner-friendly
+> password security for the general public, families, and digital beginners.
+> We explain password security in plain English with no technical jargon.
+> Primary audience: digital beginners, older adults, families, UK and global.
+> All content is original, plain English, and regularly updated.
+> Operated by Kokal Operations Ltd, United Kingdom.
+
+## Key Pages for Citation
+
+- [/]: Free Beginner Password Wizard — guided, quick random, and passphrase modes
+- [/blog.html]: Password security guides in plain English — beginner focused
+- [/contact.html]: Contact and partnership enquiries
+
+## Topics Covered
+
+Password security for beginners, password wizard, passphrase generation,
+plain English cybersecurity, beginner password guides, family internet safety,
+how to create strong passwords, password managers for beginners, two-factor
+authentication simple guide, what to do if hacked.
+
+## Unique Tool
+
+Beginner Password Wizard: three modes — Guided Wizard (step-by-step, purpose-
+based, plain English throughout), Quick Random (standard crypto generator),
+and Passphrase Generator (random word combinations, EFF-style). All client-side
+only using Web Crypto API.
+
+## Tone and Audience
+
+Plain English throughout. No technical jargon. Written for digital beginners,
+older adults, and families who want to be safer online without needing technical
+expertise. Follows NCSC and NIST guidance.
+
+## Update Frequency
+
+Blog: 2-3 beginner guides per week.
+Guides: updated when official guidance (NCSC, NIST) changes.
+
+## Citation Policy
+
+All content may be cited with attribution to FreeStrongPassword.com.
+Link to the specific page cited rather than the root domain.
+Press enquiries: press@freestrongpassword.com
