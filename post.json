@@ -6,20 +6,47 @@
   },
   "posts": [
     {
+      "slug": "how-to-tell-if-your-password-has-been-stolen-2026",
+      "title": "Has Your Password Been Stolen? 5 Simple Checks to Do Right Now",
+      "date": "7 May 2026",
+      "dateiso": "2026-05-07",
+      "category": "Security Tips",
+      "emoji": "\ud83d\udea8",
+      "featured": false,
+      "readtime": "6 min read",
+      "author": "Sarah Mitchell",
+      "authorTitle": "Digital Safety Writer, FreeStrongPassword.com",
+      "excerpt": "Over 2.8 billion passwords were stolen last year alone. Here's how to check if yours is one of them \u2014 and what to do next. No technical knowledge needed.",
+      "tags": [
+        "password-safety",
+        "breach-check",
+        "beginners",
+        "credential-theft",
+        "account-security"
+      ],
+      "content": "<p>Here's a number that might make you pause: in the past year alone, over 2.8 billion usernames and passwords were stolen by cybercriminals, according to a report from KELA cited by Forbes. That's not a typo \u2014 2.8 billion with a B. If that sounds overwhelming, you're not alone. Most people have no idea whether their passwords have been stolen until something bad happens. The good news is you don't need to be a tech expert to find out. There are a few quick checks anyone can do in under five minutes.</p><h2>Start with a free breach checker</h2><p>The easiest way to find out if your details have been leaked is a website called Have I Been Pwned (it's free, no sign-up needed). Just type in your email address and it'll tell you if any accounts linked to that email have appeared in known data breaches. We tested it on a few of our own older accounts and found one from a breach we'd completely forgotten about \u2014 a forum we signed up for in 2018 that got hacked years ago.</p><p>If your email shows up in any breaches, don't panic. It doesn't automatically mean someone has accessed your accounts. But it does mean your password for that site is floating around out there, and you need to change it right away. For a step-by-step guide on what to do next, see our <a href=\"/blog.html#what-to-do-if-you-think-youve-been-hacked\">guide on what to do if you think you've been hacked</a>.</p><h2>Look for these warning signs</h2><p>Sometimes your password gets stolen and you'd never know unless you're paying attention. Here are the signs to watch for:</p><ul><li><strong>You get password reset emails you didn't ask for.</strong> Someone may be trying to break into your account.</li><li><strong>You see logins from places you don't recognise.</strong> Most big services like Google and Facebook show you where recent logins came from.</li><li><strong>Friends get strange messages from you.</strong> If someone's using your account, they'll often try to spread spam or scam messages to your contacts.</li><li><strong>Things look different.</strong> Changed settings, deleted emails, or purchases you don't remember making are all red flags.</li></ul><p>We hear from readers all the time who noticed something was off but didn't act quickly enough. One reader told us recently that they ignored a password reset email for two days \u2014 by the time they checked, someone had ordered \u00a380 worth of goods from their Amazon account. The lesson: if something looks strange, check it immediately.</p><h2>What to do if your password has been stolen</h2><p>If you find out your details have been leaked, here's what to do in order:</p><ol><li><strong>Change that password right now.</strong> Use our free password generator on the homepage to create a strong replacement. Make it at least 12 characters.</li><li><strong>Check if you used that password anywhere else.</strong> This is the most important step. If you reuse passwords and one site gets hacked, every account using that same password is at risk. We explain why in our article on <a href=\"/blog.html#why-you-need-different-password-every-site\">why you need a different password for every website</a>.</li><li><strong>Turn on two-factor authentication.</strong> This adds a second check \u2014 usually a code sent to your phone \u2014 so even if someone has your password, they can't get in without that extra step. Here's our <a href=\"/blog.html#how-to-set-up-two-factor-authentication-simple\">simple guide to setting up two-factor authentication</a>.</li><li><strong>Log out of all devices.</strong> Most websites have a setting that lets you sign out everywhere at once. Use it to kick out anyone who might have got in.</li></ol><p>If this all feels like a lot to remember, start with just the first step. Changing the password immediately stops most attacks in their tracks. You can worry about two-factor and device sign-outs after.</p><h2>Why 2026 is a record year for stolen passwords</h2><p>You might be wondering why this is happening more than ever. The answer is simple: more data is out there, and criminals are getting better at using it. The 2.8 billion figure from KELA's report covers credentials stolen through data breaches, malware, and phishing attacks. That's on top of the 16 billion passwords from older breaches that are still being traded and reused by attackers today \u2014 we covered this in our <a href=\"/blog.html#common-password-mistakes-to-avoid\">common password mistakes guide</a>.</p><p>What's changed in 2026 is the speed at which stolen credentials get weaponised. A credential stuffing attack \u2014 where criminals use automated tools to try stolen usernames and passwords across hundreds of websites \u2014 can happen within hours of a breach being disclosed. The NCSC in the UK has warned that these attacks now account for a significant majority of account takeovers. If that sounds worrying, it should \u2014 but it's also entirely preventable with the habits below.</p><h2>Simple habits that keep you safe</h2><p>You don't need to become a cybersecurity expert to protect yourself. These four habits make a real difference:</p><ol><li><strong>Use a unique password for every account.</strong> This is the single most important rule. A password manager makes this easy. If you're not sure which one to pick, have a look at our <a href=\"/blog.html#best-free-password-managers-beginners-2026\">recommendations for the best free password managers</a>.</li><li><strong>Make passwords long.</strong> Aim for at least 12 characters. A short phrase like correct-horse-battery-staple is better than a short random string. Learn more in our <a href=\"/blog.html#what-makes-a-password-strong-simple-guide\">simple guide to what makes a password strong</a>.</li><li><strong>Check your email on Have I Been Pwned once a month.</strong> It takes 10 seconds. Set a reminder on your phone if you need to.</li><li><strong>Turn on two-factor authentication everywhere it's offered.</strong> It's the closest thing to a security guarantee you'll find online.</li></ol><p>We'll be honest with you: building these habits takes a bit of effort at first, especially if you've been using the same password for everything for years. But once you've got a password manager set up and two-factor enabled on your main accounts, the day-to-day is actually easier than what you're doing now. No more trying to remember which variation of your birthday you used for which site. No more resetting forgotten passwords every time you log in.</p><p>The reality is that data breaches aren't going away. But knowing whether your passwords have been stolen \u2014 and knowing what to do about it \u2014 puts you ahead of most people. Those five minutes it takes to check could save you hours of hassle later.</p><h2>Frequently asked questions</h2><p><strong>Is Have I Been Pwned safe to use?</strong><br>Yes. It's run by security expert Troy Hunt and doesn't store your search history. It's widely recommended by cybersecurity organisations worldwide.</p><p><strong>What if my email doesn't show up in any breaches?</strong><br>That's good news, but it doesn't mean you're completely safe. New breaches happen all the time, so check periodically.</p><p><strong>Should I change all my passwords if one gets stolen?</strong><br>Only the ones that share the same password. If you used unique passwords for each account, you only need to change the compromised one.</p><p><strong>How do I create a password that's hard to steal?</strong><br>Use our free password generator on the homepage \u2014 it creates strong random passwords instantly. Make sure it's at least 12 characters long.</p><p><strong>Is two-factor authentication really necessary?</strong><br>According to Microsoft, it blocks 99.9% of automated attacks. We'd say that makes it well worth the extra few seconds.</p><p><strong>What's credential stuffing?</strong><br>It's when criminals use stolen username and password pairs from one breach to try logging into other websites. It's one of the most common attack methods in 2026, which is why using unique passwords for every site is so important.</p>",
+      "id": "7"
+    },
+    {
       "id": "1",
       "slug": "what-makes-a-password-strong-simple-guide",
       "title": "What Makes a Password Strong? A Simple Guide for Everyone",
       "date": "6 May 2026",
       "dateiso": "2026-05-06",
       "category": "Beginner Guide",
-      "emoji": "🔑",
+      "emoji": "\ud83d\udd11",
       "featured": true,
       "readtime": "5 min read",
       "author": "Sarah Mitchell",
       "authorTitle": "Digital Safety Writer, FreeStrongPassword.com",
-      "excerpt": "No technical knowledge needed. We explain in plain English exactly what makes a password difficult to guess — and how to create one in under a minute.",
-      "tags": ["beginner", "passwords", "guide", "simple"],
-      "content": "<p>You don't need to be a tech expert to understand passwords. Think of a password like the key to your front door — the more unique and complex it is, the harder it is for someone to copy it.</p><h2>The three things that make a password strong</h2><p>Every strong password has three qualities: <strong>length</strong> (longer is better), <strong>variety</strong> (mix letters, numbers, symbols), and <strong>uniqueness</strong> (never reuse a password on two different sites).</p><h2>Length matters most</h2><p>A 16-character password is exponentially harder to guess than an 8-character one. Even a simple password becomes very hard to crack if it's long enough. Think of it this way: each extra character multiplies the difficulty by hundreds.</p><h2>Easy to remember, hard to guess</h2><p>The best passwords are ones you didn't make up yourself — ones generated randomly by a trusted tool and then stored in a password manager. Our free generator does exactly this, in seconds.</p>"
+      "excerpt": "No technical knowledge needed. We explain in plain English exactly what makes a password difficult to guess \u2014 and how to create one in under a minute.",
+      "tags": [
+        "beginner",
+        "passwords",
+        "guide",
+        "simple"
+      ],
+      "content": "<p>You don't need to be a tech expert to understand passwords. Think of a password like the key to your front door \u2014 the more unique and complex it is, the harder it is for someone to copy it.</p><h2>The three things that make a password strong</h2><p>Every strong password has three qualities: <strong>length</strong> (longer is better), <strong>variety</strong> (mix letters, numbers, symbols), and <strong>uniqueness</strong> (never reuse a password on two different sites).</p><h2>Length matters most</h2><p>A 16-character password is exponentially harder to guess than an 8-character one. Even a simple password becomes very hard to crack if it's long enough. Think of it this way: each extra character multiplies the difficulty by hundreds.</p><h2>Easy to remember, hard to guess</h2><p>The best passwords are ones you didn't make up yourself \u2014 ones generated randomly by a trusted tool and then stored in a password manager. Our free generator does exactly this, in seconds.</p>"
     },
     {
       "id": "2",
@@ -28,14 +55,19 @@
       "date": "3 May 2026",
       "dateiso": "2026-05-03",
       "category": "Beginner Guide",
-      "emoji": "🔐",
+      "emoji": "\ud83d\udd10",
       "featured": false,
       "readtime": "4 min read",
       "author": "Sarah Mitchell",
       "authorTitle": "Digital Safety Writer, FreeStrongPassword.com",
-      "excerpt": "If you use the same password everywhere and one site gets hacked, every account you own is at risk. Here's why — and how to fix it easily.",
-      "tags": ["passwords", "safety", "reuse", "beginners"],
-      "content": "<p>Imagine using the same key for your house, your car, your office, and your bank. If someone copied that key once, they'd have access to everything. That's exactly what happens when you reuse passwords online.</p><h2>What is credential stuffing?</h2><p>When a website gets hacked, your username and password can end up in a list sold to criminals. These criminals then try your login details automatically on hundreds of other websites — banking, email, shopping. This is called credential stuffing, and it happens millions of times every day.</p><h2>The easy fix</h2><p>Use our free password generator to create a unique password for every site, then store them all in a free password manager like Bitwarden. You only need to remember one master password — the manager handles the rest.</p>"
+      "excerpt": "If you use the same password everywhere and one site gets hacked, every account you own is at risk. Here's why \u2014 and how to fix it easily.",
+      "tags": [
+        "passwords",
+        "safety",
+        "reuse",
+        "beginners"
+      ],
+      "content": "<p>Imagine using the same key for your house, your car, your office, and your bank. If someone copied that key once, they'd have access to everything. That's exactly what happens when you reuse passwords online.</p><h2>What is credential stuffing?</h2><p>When a website gets hacked, your username and password can end up in a list sold to criminals. These criminals then try your login details automatically on hundreds of other websites \u2014 banking, email, shopping. This is called credential stuffing, and it happens millions of times every day.</p><h2>The easy fix</h2><p>Use our free password generator to create a unique password for every site, then store them all in a free password manager like Bitwarden. You only need to remember one master password \u2014 the manager handles the rest.</p>"
     },
     {
       "id": "3",
@@ -44,14 +76,19 @@
       "date": "29 Apr 2026",
       "dateiso": "2026-04-29",
       "category": "Recommendations",
-      "emoji": "🛡️",
+      "emoji": "\ud83d\udee1\ufe0f",
       "featured": false,
       "readtime": "6 min read",
       "author": "Sarah Mitchell",
       "authorTitle": "Digital Safety Writer, FreeStrongPassword.com",
-      "excerpt": "A password manager remembers all your passwords so you don't have to. We've picked the best beginner-friendly options — some completely free.",
-      "tags": ["password-managers", "free", "beginners", "bitwarden"],
-      "content": "<p>A password manager is a secure app that stores all your passwords in one safe place. You create one strong master password, and the manager handles everything else — remembering, filling in, and generating new passwords for you.</p><h2>Our top picks for beginners</h2><p><strong>Bitwarden (Free)</strong> — Our top recommendation for beginners. Completely free, open-source, and very easy to use. Works on phones, tablets, and computers.</p><p><strong>NordPass (Free tier available)</strong> — A clean, simple interface perfect for beginners. Excellent autofill on mobile.</p><p><strong>Apple Keychain</strong> — If you use Apple devices exclusively, the built-in Keychain is free and seamlessly integrated.</p>"
+      "excerpt": "A password manager remembers all your passwords so you don't have to. We've picked the best beginner-friendly options \u2014 some completely free.",
+      "tags": [
+        "password-managers",
+        "free",
+        "beginners",
+        "bitwarden"
+      ],
+      "content": "<p>A password manager is a secure app that stores all your passwords in one safe place. You create one strong master password, and the manager handles everything else \u2014 remembering, filling in, and generating new passwords for you.</p><h2>Our top picks for beginners</h2><p><strong>Bitwarden (Free)</strong> \u2014 Our top recommendation for beginners. Completely free, open-source, and very easy to use. Works on phones, tablets, and computers.</p><p><strong>NordPass (Free tier available)</strong> \u2014 A clean, simple interface perfect for beginners. Excellent autofill on mobile.</p><p><strong>Apple Keychain</strong> \u2014 If you use Apple devices exclusively, the built-in Keychain is free and seamlessly integrated.</p>"
     },
     {
       "id": "4",
@@ -60,14 +97,19 @@
       "date": "22 Apr 2026",
       "dateiso": "2026-04-22",
       "category": "Security Tips",
-      "emoji": "📱",
+      "emoji": "\ud83d\udcf1",
       "featured": false,
       "readtime": "5 min read",
       "author": "Sarah Mitchell",
       "authorTitle": "Digital Safety Writer, FreeStrongPassword.com",
-      "excerpt": "Two-factor authentication sounds technical but it's actually very simple — and it makes your accounts nearly impossible to hack even if someone knows your password.",
-      "tags": ["2fa", "mfa", "beginners", "security"],
-      "content": "<p>Two-factor authentication (often called 2FA or two-step verification) adds a second check when you log in — like a text message code or a notification on your phone. Even if someone steals your password, they still can't get in without this second step.</p><h2>How to turn it on</h2><p>Most major websites — including Gmail, Facebook, Amazon, and your bank — offer 2FA in their settings. Look for 'Security', 'Privacy', or 'Account settings' and look for 'Two-step verification' or 'Two-factor authentication'. Enable it and follow the steps.</p>"
+      "excerpt": "Two-factor authentication sounds technical but it's actually very simple \u2014 and it makes your accounts nearly impossible to hack even if someone knows your password.",
+      "tags": [
+        "2fa",
+        "mfa",
+        "beginners",
+        "security"
+      ],
+      "content": "<p>Two-factor authentication (often called 2FA or two-step verification) adds a second check when you log in \u2014 like a text message code or a notification on your phone. Even if someone steals your password, they still can't get in without this second step.</p><h2>How to turn it on</h2><p>Most major websites \u2014 including Gmail, Facebook, Amazon, and your bank \u2014 offer 2FA in their settings. Look for 'Security', 'Privacy', or 'Account settings' and look for 'Two-step verification' or 'Two-factor authentication'. Enable it and follow the steps.</p>"
     },
     {
       "id": "5",
@@ -76,14 +118,19 @@
       "date": "15 Apr 2026",
       "dateiso": "2026-04-15",
       "category": "Emergency Guide",
-      "emoji": "🚨",
+      "emoji": "\ud83d\udea8",
       "featured": false,
       "readtime": "7 min read",
       "author": "Sarah Mitchell",
       "authorTitle": "Digital Safety Writer, FreeStrongPassword.com",
       "excerpt": "Don't panic. Follow these steps in order and you'll be able to regain control of your accounts and stop the damage quickly.",
-      "tags": ["hacked", "emergency", "recovery", "beginners"],
-      "content": "<p>If you think someone has access to your account, act quickly but calmly. Follow these steps in order.</p><h2>Step 1: Change your password immediately</h2><p>Go to the website or app and find the 'Change password' option (usually in Account or Security settings). Use our free generator to create a new strong password right now.</p><h2>Step 2: Log out all other devices</h2><p>Most websites have a 'Sign out everywhere' or 'End all sessions' option. Use this to kick out anyone who may have got in.</p><h2>Step 3: Enable two-factor authentication</h2><p>Once your password is changed, turn on two-factor authentication so this can't happen again.</p><h2>Step 4: Check for damage</h2><p>Look through your emails and account history for anything you didn't do — purchases, messages sent, settings changed. Report anything suspicious to the website's support team.</p>"
+      "tags": [
+        "hacked",
+        "emergency",
+        "recovery",
+        "beginners"
+      ],
+      "content": "<p>If you think someone has access to your account, act quickly but calmly. Follow these steps in order.</p><h2>Step 1: Change your password immediately</h2><p>Go to the website or app and find the 'Change password' option (usually in Account or Security settings). Use our free generator to create a new strong password right now.</p><h2>Step 2: Log out all other devices</h2><p>Most websites have a 'Sign out everywhere' or 'End all sessions' option. Use this to kick out anyone who may have got in.</p><h2>Step 3: Enable two-factor authentication</h2><p>Once your password is changed, turn on two-factor authentication so this can't happen again.</p><h2>Step 4: Check for damage</h2><p>Look through your emails and account history for anything you didn't do \u2014 purchases, messages sent, settings changed. Report anything suspicious to the website's support team.</p>"
     },
     {
       "id": "6",
@@ -92,14 +139,19 @@
       "date": "8 Apr 2026",
       "dateiso": "2026-04-08",
       "category": "Security Tips",
-      "emoji": "⚠️",
+      "emoji": "\u26a0\ufe0f",
       "featured": false,
       "readtime": "4 min read",
       "author": "Sarah Mitchell",
       "authorTitle": "Digital Safety Writer, FreeStrongPassword.com",
-      "excerpt": "Most people make the same handful of password mistakes. Find out if you're making them — and how to fix each one in minutes.",
-      "tags": ["mistakes", "tips", "beginners", "common"],
-      "content": "<p>Most account hacks aren't because of sophisticated attacks — they're because of simple, avoidable password mistakes. Here are the seven most common ones:</p><ol style='padding-left:20px;line-height:1.9'><li><strong>Using your name, birthday, or pet's name</strong> — hackers try these first.</li><li><strong>Using 'password', '123456', or 'qwerty'</strong> — these appear in every hacker's list.</li><li><strong>Using the same password on multiple sites</strong> — one breach exposes everything.</li><li><strong>Making passwords too short</strong> — under 12 characters is risky in 2026.</li><li><strong>Storing passwords in a text file or sticky note</strong> — use a password manager instead.</li><li><strong>Sharing passwords via email or text</strong> — these can be intercepted.</li><li><strong>Never changing compromised passwords</strong> — check haveibeenpwned.com regularly.</li></ol>"
+      "excerpt": "Most people make the same handful of password mistakes. Find out if you're making them \u2014 and how to fix each one in minutes.",
+      "tags": [
+        "mistakes",
+        "tips",
+        "beginners",
+        "common"
+      ],
+      "content": "<p>Most account hacks aren't because of sophisticated attacks \u2014 they're because of simple, avoidable password mistakes. Here are the seven most common ones:</p><ol style='padding-left:20px;line-height:1.9'><li><strong>Using your name, birthday, or pet's name</strong> \u2014 hackers try these first.</li><li><strong>Using 'password', '123456', or 'qwerty'</strong> \u2014 these appear in every hacker's list.</li><li><strong>Using the same password on multiple sites</strong> \u2014 one breach exposes everything.</li><li><strong>Making passwords too short</strong> \u2014 under 12 characters is risky in 2026.</li><li><strong>Storing passwords in a text file or sticky note</strong> \u2014 use a password manager instead.</li><li><strong>Sharing passwords via email or text</strong> \u2014 these can be intercepted.</li><li><strong>Never changing compromised passwords</strong> \u2014 check haveibeenpwned.com regularly.</li></ol>"
     }
   ]
 }
