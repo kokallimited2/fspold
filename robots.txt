@@ -1,28 +1,20 @@
-# robots.txt — freestrongpassword.com
-# Updated: May 2026
-
 User-agent: *
 Allow: /
-Disallow: /assets/drafts/
-Disallow: /admin/
 
-# AI crawlers — explicitly allowed for citation eligibility
+# AI crawlers - explicitly allowed
 User-agent: GPTBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: PerplexityBot
 Allow: /
 
 User-agent: Google-Extended
 Allow: /
 
-User-agent: Googlebot
+User-agent: Claude-Web
 Allow: /
 
-User-agent: Bingbot
+User-agent: CCBot
 Allow: /
 
-Sitemap: https://freestrongpassword.com/sitemap.xml
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://freestrongpassword.com/blog/sitemap.xml
