@@ -11,7 +11,7 @@
       "date": "8 May 2026",
       "dateiso": "2026-05-08",
       "category": "Beginner Guides",
-      "emoji": "\ud83d\udd11",
+      "emoji": "🔑",
       "readtime": "6 min",
       "featured": true,
       "excerpt": "Most people think a strong password needs lots of symbols. That's actually wrong. This plain-English guide explains what really makes a password safe.",
@@ -24,10 +24,10 @@
       "date": "4 May 2026",
       "dateiso": "2026-05-04",
       "category": "Beginner Guides",
-      "emoji": "\ud83c\udf10",
+      "emoji": "🌐",
       "readtime": "5 min",
       "featured": false,
-      "excerpt": "Using the same password everywhere is one of the most dangerous things you can do online. Here's why \u2014 and the simple fix.",
+      "excerpt": "Using the same password everywhere is one of the most dangerous things you can do online. Here's why — and the simple fix.",
       "author": "Emma Watts, Digital Safety Writer"
     },
     {
@@ -37,23 +37,23 @@
       "date": "29 Apr 2026",
       "dateiso": "2026-04-29",
       "category": "Tools",
-      "emoji": "\ud83d\udddd\ufe0f",
+      "emoji": "🗝️",
       "readtime": "8 min",
       "featured": false,
-      "excerpt": "You can't remember a different strong password for every site \u2014 and you shouldn't have to. A password manager does it for you. Here are the best free options.",
+      "excerpt": "You can't remember a different strong password for every site — and you shouldn't have to. A password manager does it for you. Here are the best free options.",
       "author": "Emma Watts, Digital Safety Writer"
     },
     {
       "slug": "how-to-set-up-two-factor-authentication-simple",
       "url": "/blog/how-to-set-up-two-factor-authentication-simple.html",
-      "title": "How to Set Up Two-Factor Authentication \u2014 Simple Steps",
+      "title": "How to Set Up Two-Factor Authentication — Simple Steps",
       "date": "23 Apr 2026",
       "dateiso": "2026-04-23",
       "category": "How-To Guides",
-      "emoji": "\ud83d\udee1\ufe0f",
+      "emoji": "🛡️",
       "readtime": "7 min",
       "featured": false,
-      "excerpt": "Two-factor authentication makes your accounts much harder to break into \u2014 even if someone knows your password. Simple step-by-step guide.",
+      "excerpt": "Two-factor authentication makes your accounts much harder to break into — even if someone knows your password. Simple step-by-step guide.",
       "author": "Emma Watts, Digital Safety Writer"
     },
     {
@@ -63,7 +63,7 @@
       "date": "16 Apr 2026",
       "dateiso": "2026-04-16",
       "category": "How-To Guides",
-      "emoji": "\ud83d\udea8",
+      "emoji": "🚨",
       "readtime": "7 min",
       "featured": false,
       "excerpt": "Don't panic. Follow these steps in order. A calm, plain-English guide to recovering a hacked account.",
@@ -76,11 +76,25 @@
       "date": "9 Apr 2026",
       "dateiso": "2026-04-09",
       "category": "Beginner Guides",
-      "emoji": "\u26a0\ufe0f",
+      "emoji": "⚠️",
       "readtime": "6 min",
       "featured": false,
       "excerpt": "Most people make at least one of these password mistakes without realising it. Here's how to spot them and fix them quickly.",
       "author": "Emma Watts, Digital Safety Writer"
+    },
+    {
+      "slug": "fbi-warns-kali365-phishing-bypasses-mfa",
+      "url": "/blog/fbi-warns-kali365-phishing-bypasses-mfa.html",
+      "title": "MFA Not Enough? FBI Warns of New Kali365 Phishing",
+      "date": "26 May 2026",
+      "dateiso": "2026-05-26",
+      "category": "News",
+      "emoji": "🚨",
+      "readtime": "8 min",
+      "featured": false,
+      "excerpt": "FBI warns Kali365 phishing-as-a-service bypasses MFA to hijack Microsoft 365 accounts. How device code phishing works and how to protect yourself.",
+      "author": "Emma Watts, Digital Safety Writer",
+      "content": "The FBI has issued a warning about Kali365, a new phishing-as-a-service (PhaaS) platform that can hijack Microsoft 365 accounts even when multi-factor authentication (MFA) is turned on. This isn't another generic phishing scam — Kali365 uses a technique called **device code phishing** to steal session tokens that bypass MFA entirely.\n\n---\n\n## What Is Kali365?\n\nKali365 first appeared in April 2026 and is distributed through Telegram channels to cybercriminals. According to the [FBI's Internet Crime Complaint Center (IC3) PSA](https://www.ic3.gov/PSA/2026/PSA260521), the platform gives even low-skilled attackers access to advanced phishing capabilities. Security researchers at [Arctic Wolf](https://arcticwolf.com/resources/blog/token-bingo-dont-let-your-code-be-the-winner/) observed widespread campaigns targeting organisations worldwide.\n\nThe platform operates like a legitimate business — with administrators who manage product development, resellers who promote the service to other threat actors, and affiliates who conduct the actual phishing attacks. This is a worrying shift in the cybercrime economy: phishing-as-a-service makes sophisticated attacks available to anyone willing to pay.\n\n## How Device Code Phishing Works\n\nDevice code authentication is a legitimate Microsoft OAuth 2.0 feature designed for devices with limited keyboards — think smart TVs, conference room systems, streaming devices, and IoT gadgets. Instead of typing a password, users visit `microsoft.com/devicelogin` and enter a short code to authenticate.\n\nHere's how attackers abuse this flow:\n\n1. The attacker starts the device authentication process on their end, generating a valid code from Microsoft's servers\n2. They send a phishing email that looks urgent — often pretending to be IT support, a security alert, or a shared document notification\n3. The email directs the victim to Microsoft's legitimate device login portal with a code\n4. The victim enters the code and completes MFA (thinking they're securing their account)\n5. Microsoft issues an OAuth access token — which is sent directly to the attacker's session\n6. The attacker now has **full access** to the victim's email, files, calendar, and all connected apps — without needing a password or MFA code\n\nThe result is devastating: the attacker gains access to everything in the victim's Microsoft 365 account, including Salesforce, SharePoint, Teams chats, and any other SaaS platforms connected through single sign-on.\n\n## Why MFA Didn't Stop Them\n\nThis is the most unsettling part of the Kali365 story. **MFA worked exactly as designed** — the victim completed their authentication challenge. But the attacker set up the whole flow, so the resulting token went to them instead.\n\n[Two-factor authentication](/blog/how-to-set-up-two-factor-authentication-simple.html) is still one of the best things you can do to protect your accounts. But device code phishing targets a gap in the authentication flow that MFA alone cannot close. The token, not the password, is what the attacker is after.\n\nMost people believe that having MFA enabled means they're safe. Kali365 proves that's not enough anymore.\n\n## Two Attack Modes\n\nKali365 offers two separate attack modes, making it even more dangerous:\n\n**1. Device Code Phishing:** The method described above — abuses Microsoft's legitimate OAuth 2.0 Device Authorization grant flow. The attacker never needs to crack a password or intercept an MFA code.\n\n**2. Cookie Link (AitM):** An adversary-in-the-middle mode that proxies victims through attacker-controlled infrastructure. This captures authenticated browser sessions, session cookies, and tokens after the target logs in and completes MFA.\n\nArctic Wolf researchers found that campaigns primarily targeted Microsoft 365 environments using phishing emails that looked legitimate. Once inside, attackers:\n\n- Accessed victims' mailboxes and read sensitive correspondence\n- Created malicious inbox rules designed to hide their activity from the victim\n- Registered new devices in victims' Microsoft environments to extend their access\n- Used the compromised accounts as launching points for further attacks\n\n## Who's Behind This?\n\nKali365 isn't operating in isolation. Related phishing platforms using the same device code technique include:\n\n- **EvilTokens PhaaS** — Another device code phishing platform targeting Microsoft Entra accounts\n- **Tycoon2FA** — Uses device code phishing to compromise M365 and Entra accounts\n- **ShinyHunters** — The cybercrime group was observed using device code and voice phishing (vishing) to target Microsoft Entra accounts\n\nThe growing ecosystem of PhaaS platforms means device code phishing is becoming the default tool for account takeover attacks in 2026.\n\n## How to Protect Yourself\n\nThe FBI has issued specific recommendations. Here's what to do right now:\n\n### For Individuals\n\n- Be sceptical of any email asking you to enter a code on any Microsoft login page\n- Check the sender address carefully — Kali365 campaigns use AI-generated phishing lures\n- If an email creates urgency (\"your account will be disabled\"), pause and verify through a different channel\n- Use a [password manager](/blog/best-free-password-managers-beginners-2026.html) to generate unique, strong passwords for every account\n- [Know what to do if you think you've been hacked](/blog/what-to-do-if-you-think-youve-been-hacked.html) — acting fast limits the damage\n\n### For Organisations\n\n- Restrict or block device code authentication flows using Microsoft Entra Conditional Access policies\n- Audit existing device code usage across your tenant\n- Block authentication transfer policies that allow sessions to move between devices\n- Educate employees about device code phishing specifically\n- Monitor for unusual device registrations and inbox rule creations\n- Report incidents to the IC3 at ic3.gov\n\n### Recommended Security Stack\n\nA layered approach protects against both password attacks and token theft:\n\n1. Use a reliable [antivirus like Kaspersky](https://dhwnh.com/g/f6b07970c6ca5cdc7c0be5a65aad3a/?erid=5jtCeReLm1S3Xx3LfA8QF84) that detects phishing URLs before you click\n2. Use a [privacy VPN like TurboVPN](https://grfpr.com/g/exe221unkpca5cdc7c0bddf84d4c0b/) when connecting to work email on public Wi-Fi\n3. Consider [encrypted email through Trekmail](https://tsygg.com/g/p5lrcr1ak1ca5cdc7c0bce5d089991/) for sensitive business correspondence\n\n## What to Do If You've Been Targeted\n\nIf you entered a device code after following a link from an unexpected email:\n\n1. Revoke all session tokens from Microsoft 365 security settings immediately\n2. Change your password and force MFA re-registration\n3. Check inbox rules for anything suspicious\n4. Review recent device registrations in Microsoft Entra\n5. Notify your IT department or security team\n\n## FAQs\n\n**Can MFA stop device code phishing?**\n\nNo. Device code phishing uses MFA as part of the attack. The victim completes MFA successfully, but the resulting token goes to the attacker. This is why the [NCSC](https://www.ncsc.gov.uk/) and CISA recommend phishing-resistant authentication (FIDO2 security keys) for privileged accounts.\n\n**Does Kali365 affect personal accounts or only business ones?**\n\nBoth. Microsoft 365 business accounts are the primary target (they give access to more valuable data), but personal Microsoft accounts using device code authentication are also vulnerable.\n\n**How common is device code phishing in 2026?**\n\nVery common. Multiple PhaaS platforms now use it. The [IBM Cost of a Data Breach 2026](https://www.ibm.com/reports/data-breach) report highlighted token theft as one of the fastest-growing attack vectors, increasing 67% year over year.\n\n**Should I turn off MFA?**\n\nAbsolutely not. MFA blocks the vast majority of automated attacks. Kali365 is sophisticated and targeted. Keep MFA on, but add phishing awareness to your security habits.\n\n**What is the single most important thing I can do?**\n\nBe extremely suspicious of any email asking you to visit a login page and enter a code. For organisations: restrict device code authentication using Conditional Access policies.\n\n## Summary\n\nKali365 is a wake-up call. The FBI's warning confirms that phishing-as-a-service has reached a new level of sophistication — AI-generated lures, automated campaigns, MFA bypass, and a business model that makes all of this available to low-skilled attackers.\n\nThe key takeaway: MFA is essential, but it isn't a silver bullet. Stay sceptical of unexpected authentication prompts, use strong unique passwords, keep software updated, and report suspicious activity to the FBI's IC3.\n\n---\n\n*This article contains affiliate links. If you purchase through these links, we may earn a commission at no extra cost to you.*"
     }
   ]
 }
