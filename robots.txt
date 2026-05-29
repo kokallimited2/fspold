@@ -1,20 +1,39 @@
 User-agent: *
 Allow: /
 
-# AI crawlers - explicitly allowed
+# Deny non-useful / data-scraping crawlers
+User-agent: Amazonbot
+Disallow: /
+User-agent: Applebot-Extended
+Disallow: /
+User-agent: Bytespider
+Disallow: /
+User-agent: CCBot
+Disallow: /
+User-agent: ClaudeBot
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
+User-agent: GPTBot
+Disallow: /
+User-agent: meta-externalagent
+Disallow: /
+
+# Override block — re-allow AI crawlers after their deny
+User-agent: *
+Allow: /
+Disallow: /assets/
+
 User-agent: GPTBot
 Allow: /
 
-User-agent: Google-Extended
-Allow: /
-
-User-agent: Claude-Web
-Allow: /
-
-User-agent: CCBot
+User-agent: ClaudeBot
 Allow: /
 
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: https://freestrongpassword.com/blog/sitemap.xml
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://freestrongpassword.com/sitemap.xml
