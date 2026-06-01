@@ -145,4 +145,10 @@
   </url>
   <url><loc>https://freestrongpassword.com/legal.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://freestrongpassword.com/about.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url>
+    <loc>https://freestrongpassword.com/blog/public-wifi-safety-guide-beginners.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
