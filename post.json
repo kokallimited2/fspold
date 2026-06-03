@@ -6,6 +6,28 @@
   },
   "posts": [
     {
+      "id": "748",
+      "slug": "vs-code-zero-day-github-token-theft-beginners-guide",
+      "url": "/blog/vs-code-zero-day-github-token-theft-beginners-guide.html",
+      "title": "VS Code Zero-Day: Beginner's Guide to GitHub Token Theft",
+      "date": "3 June 2026",
+      "dateiso": "2026-06-03",
+      "category": "News",
+      "emoji": "🔍",
+      "featured": false,
+      "readtime": "6 min read",
+      "author": "Sarah Mitchell, Cybersecurity Educator",
+      "authorTitle": "Cybersecurity Educator",
+      "tags": [
+        "VS Code",
+        "zero-day",
+        "GitHub",
+        "beginners",
+        "token theft"
+      ],
+      "excerpt": "The VS Code zero-day lets hackers steal GitHub tokens with one click. A beginner-friendly guide to what happened, why it matters, and how to stay safe."
+    },
+    {
       "id": "7965",
       "slug": "online-shopping-safety-beginners-2026",
       "url": "/blog/online-shopping-safety-beginners-2026.html",
