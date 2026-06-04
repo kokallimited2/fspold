@@ -5,6 +5,28 @@
   },
   "posts": [
     {
+      "id": "1003",
+      "slug": "password-security-essentials-beginners-2026-parent-guide",
+      "url": "/blog/password-security-essentials-beginners-2026-parent-guide.html",
+      "title": "Password Security for Beginners: Parent's Guide 2026",
+      "date": "4 June 2026",
+      "dateiso": "2026-06-04",
+      "category": "Family Guide",
+      "emoji": "👪",
+      "featured": false,
+      "readtime": "7 min read",
+      "author": "Security Research Team, Cybersecurity Reporter",
+      "authorTitle": "Cybersecurity Reporter",
+      "tags": [
+        "password security",
+        "family safety",
+        "kids online security",
+        "password manager"
+      ],
+      "excerpt": "Password security doesn't have to be complicated. Here's everything parents need to know about protecting their family online in 2026.",
+      "content": "<p>Password security can feel overwhelming — especially when you're managing passwords for yourself, your partner, and your children across dozens of accounts. But here's the good news: in 2026, keeping your family safe online is simpler than you think. This guide covers the absolute essentials: what makes a strong password, how to use a password manager as a family, and the basic habits that protect everyone.</p>\n<h2>What Makes a Password \"Strong\"?</h2>\n<p>The <strong>NCSC</strong> (UK National Cyber Security Centre) and <strong>NIST SP 800-63B</strong> now agree: length beats complexity. A password like <code>sunset-butterfly-piano-travel</code> is far stronger and easier to remember than <code>P@ssw0rd!23</code>. Three rules: long (12-16 chars), unique (never reuse), unpredictable (avoid personal info).</p>\n<h2>Why Families Need a Password Manager</h2>\n<p>Password managers store all passwords in a secure vault. For families, <strong>1Password Families</strong>, <strong>Bitwarden</strong> (free tier), and <strong>NordPass</strong> all offer shared vaults. The <strong>OWASP</strong> recommends password managers as the single most effective security improvement for non-technical users.</p>\n<h2>Kids Online Security: Age-by-Age Guide</h2>\n<h3>Ages 6-9: First Steps</h3>\n<p>Use <strong>parental controls</strong> (Circle Home Plus, Bark). Teach: never share personal info online, ask before downloading. Use printable passphrase cards for school logins.</p>\n<h3>Ages 10-13: Building Habits</h3>\n<p>Start a family password manager. Teach phishing awareness, introduce 2FA. Make it a quarterly family activity to check the password manager's security report.</p>\n<h3>Ages 14+: Independent Management</h3>\n<p>Teens manage their own passwords within the family plan. Encourage 2FA on all accounts, separate school/personal emails, and using the password generator for every new account.</p>\n<h2>Common Mistakes Parents Make</h2>\n<table>\n<tr><th>Mistake</th><th>Fix</th></tr>\n<tr><td>Same password everywhere</td><td>Password manager with unique passwords</td></tr>\n<tr><td>Passwords on sticky notes</td><td>Shared vault in family password manager</td></tr>\n<tr><td>Sharing via text message</td><td>Use password manager's secure sharing</td></tr>\n<tr><td>Honest security questions</td><td>Use random answers stored in password manager</td></tr>\n</table>\n<h2>FAQs</h2>\n<p><strong>How often should my family change passwords?</strong></p>\n<p><strong>NIST SP 800-63B</strong> says forced periodic changes are ineffective. Only change when compromised, shared, or after a breach.</p>\n<p><strong>What if my child forgets their master password?</strong></p>\n<p>Set up recovery options before someone forgets. 1Password Families and Bitwarden both have family organizer recovery features.</p>\n<p><strong>Is it safe to save passwords in Chrome?</strong></p>\n<p>Better than nothing, but less secure than dedicated managers — no folder organization, secure sharing, or audit reports.</p>\n<p><strong>Should I use fingerprint or face unlock?</strong></p>\n<p>Yes — biometrics are more secure than PINs and prevent shoulder-surfing.</p>\n<p><strong>What's the first step I should take today?</strong></p>\n<p>Install Bitwarden free, create one strong master password from our <a href=\"https://freestrongpassword.com\">password generator</a>, add your top 5 accounts. For help with compromised accounts, read our guide on <a href=\"https://freestrongpassword.com/blog/what-to-do-if-you-think-youve-been-hacked.html\">what to do if you have been hacked</a>.</p>\n<h2>Conclusion</h2>\n<p>Start with a password manager, use unique passwords everywhere, enable 2FA, and teach kids age-appropriate habits. The <strong>CISA</strong> and <strong>NCSC</strong> agree: a password manager is the single biggest security improvement. Start with our <strong><a href=\"https://freestrongpassword.com\">free beginner password generator</a></strong>.</p>"
+    },
+    {
       "id": "101",
       "slug": "family-password-management-parents-guide-2026",
       "url": "/blog/family-password-management-parents-guide-2026.html",
