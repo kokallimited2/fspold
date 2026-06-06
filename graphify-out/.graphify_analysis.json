@@ -1,0 +1,178 @@
+{
+  "communities": {
+    "0": [
+      "404html_custom_404_page",
+      "affiliate_disclosurehtml_affiliate_disclosure_page",
+      "contacthtml_contact_page",
+      "cookie_policyhtml_cookie_policy_page",
+      "indexhtml_homepage",
+      "privacy_policyhtml_privacy_policy_page",
+      "termshtml_terms_of_use_page"
+    ],
+    "1": [
+      "script_passwordstrengthchecker",
+      "script_passwordstrengthchecker_check",
+      "script_passwordstrengthchecker_formattime",
+      "script_passwordstrengthchecker_hasrepeating",
+      "script_passwordstrengthchecker_hassequence",
+      "script_passwordstrengthchecker_iscommonpassword"
+    ],
+    "2": [
+      "post",
+      "post_posts",
+      "post_site",
+      "post_site_domain",
+      "post_site_name"
+    ],
+    "3": [
+      "script",
+      "script_passwordgenerator",
+      "script_passwordgenerator_constructor",
+      "script_passwordgenerator_fallbackgenerate",
+      "script_passwordgenerator_generate"
+    ],
+    "4": [
+      "abouthtml_about_page",
+      "blog_dashlane_suspends_accounts_brute_force_attackhtml_dashlane_article",
+      "bloghtml_blog_index"
+    ],
+    "5": [
+      "fbi_warns_kali365_phishing_bypasses_mfa_article",
+      "how_to_set_up_two_factor_authentication_simple_article",
+      "what_to_do_if_you_think_youve_been_hacked_article"
+    ],
+    "6": [
+      "llms_txt_llms_document"
+    ],
+    "7": [
+      "readme_free_strong_password"
+    ],
+    "8": [
+      "robots_txt_robots_file"
+    ]
+  },
+  "cohesion": {
+    "0": 0.2857142857142857,
+    "1": 0.6,
+    "2": 0.4,
+    "3": 0.5,
+    "4": 0.6666666666666666,
+    "5": 1.0,
+    "6": 1.0,
+    "7": 1.0,
+    "8": 1.0
+  },
+  "gods": [
+    {
+      "id": "indexhtml_homepage",
+      "label": "Free Strong Password Homepage",
+      "degree": 7
+    },
+    {
+      "id": "script_passwordstrengthchecker",
+      "label": "PasswordStrengthChecker",
+      "degree": 6
+    },
+    {
+      "id": "script_passwordgenerator",
+      "label": "PasswordGenerator",
+      "degree": 4
+    },
+    {
+      "id": "post_site",
+      "label": "site",
+      "degree": 3
+    },
+    {
+      "id": "fbi_warns_kali365_phishing_bypasses_mfa_article",
+      "label": "MFA Not Enough? FBI Warns of New Kali365 Phishing",
+      "degree": 2
+    },
+    {
+      "id": "how_to_set_up_two_factor_authentication_simple_article",
+      "label": "How to Set Up Two-Factor Authentication \u2014 Simple Steps",
+      "degree": 2
+    },
+    {
+      "id": "what_to_do_if_you_think_youve_been_hacked_article",
+      "label": "What to Do If You Think You've Been Hacked",
+      "degree": 2
+    },
+    {
+      "id": "abouthtml_about_page",
+      "label": "About Free Strong Password Page",
+      "degree": 2
+    },
+    {
+      "id": "blog_dashlane_suspends_accounts_brute_force_attackhtml_dashlane_article",
+      "label": "Dashlane Suspended Accounts After Brute-Force Attack Article",
+      "degree": 2
+    },
+    {
+      "id": "post_site_domain",
+      "label": "domain",
+      "degree": 1
+    }
+  ],
+  "surprises": [
+    {
+      "source": "About Free Strong Password Page",
+      "target": "Free Strong Password Homepage",
+      "source_files": [
+        "about.html",
+        "index.html"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; bridges separate communities; peripheral node `About Free Strong Password Page` unexpectedly reaches hub `Free Strong Password Homepage`"
+    },
+    {
+      "source": "Custom 404 Page",
+      "target": "Free Strong Password Homepage",
+      "source_files": [
+        "404.html",
+        "index.html"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; peripheral node `Custom 404 Page` unexpectedly reaches hub `Free Strong Password Homepage`"
+    },
+    {
+      "source": "Affiliate Disclosure Page",
+      "target": "Free Strong Password Homepage",
+      "source_files": [
+        "affiliate-disclosure.html",
+        "index.html"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; peripheral node `Affiliate Disclosure Page` unexpectedly reaches hub `Free Strong Password Homepage`"
+    },
+    {
+      "source": "Contact Page",
+      "target": "Free Strong Password Homepage",
+      "source_files": [
+        "contact.html",
+        "index.html"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; peripheral node `Contact Page` unexpectedly reaches hub `Free Strong Password Homepage`"
+    },
+    {
+      "source": "Cookie Policy Page",
+      "target": "Free Strong Password Homepage",
+      "source_files": [
+        "cookie-policy.html",
+        "index.html"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; peripheral node `Cookie Policy Page` unexpectedly reaches hub `Free Strong Password Homepage`"
+    }
+  ],
+  "tokens": {
+    "input": 75987,
+    "output": 1897
+  }
+}
