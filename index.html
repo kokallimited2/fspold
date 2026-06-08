@@ -718,9 +718,9 @@ footer{background:var(--t);color:#fff;padding:56px 0 26px}
       <a href="blog.html" style="color:var(--p);font-weight:700;font-size:13px">Read all guides →</a>
     </div>
     <div class="blg" id="blgp" aria-label="Latest guides">
-      <div class="blgc"><div class="blgi bi1">🔑</div><div class="blgb"><div class="blgcat">Beginner Guide</div><h3>What Makes a Password Strong? A Simple Guide for Everyone</h3><p>No technical knowledge needed — we explain it in plain English in under 5 minutes.</p><div class="blgm"><span>6 May 2026</span><a href="blog.html" class="rm">Read more →</a></div></div></div>
-      <div class="blgc"><div class="blgi bi2">🔐</div><div class="blgb"><div class="blgcat">Beginner Guide</div><h3>Why You Need a Different Password for Every Website</h3><p>If one site gets hacked, reusing passwords means every account is at risk. Here's the easy fix.</p><div class="blgm"><span>3 May 2026</span><a href="blog.html" class="rm">Read more →</a></div></div></div>
-      <div class="blgc"><div class="blgi bi3">🛡️</div><div class="blgb"><div class="blgcat">Recommendations</div><h3>The Best Free Password Managers for Beginners in 2026</h3><p>A password manager remembers all your passwords so you don't have to. Here are our top picks.</p><div class="blgm"><span>29 Apr 2026</span><a href="blog.html" class="rm">Read more →</a></div></div></div>
+      <div class="blgc"><div class="blgi bi1">🔑</div><div class="blgb"><div class="blgcat">Beginner Guide</div><h3>What Makes a Password Strong? A Simple Guide for Everyone</h3><p>No technical knowledge needed — we explain it in plain English in under 5 minutes.</p><div class="blgm"><span>6 May 2026</span><a href="/blog/what-makes-a-password-strong-simple-guide.html" class="rm">Read more →</a></div></div></div>
+      <div class="blgc"><div class="blgi bi2">🔐</div><div class="blgb"><div class="blgcat">Beginner Guide</div><h3>Why You Need a Different Password for Every Website</h3><p>If one site gets hacked, reusing passwords means every account is at risk. Here's the easy fix.</p><div class="blgm"><span>3 May 2026</span><a href="/blog/why-you-need-different-password-every-site.html" class="rm">Read more →</a></div></div></div>
+      <div class="blgc"><div class="blgi bi3">🛡️</div><div class="blgb"><div class="blgcat">Recommendations</div><h3>The Best Free Password Managers for Beginners in 2026</h3><p>A password manager remembers all your passwords so you don't have to. Here are our top picks.</p><div class="blgm"><span>29 Apr 2026</span><a href="/blog/best-free-password-managers-beginners-2026.html" class="rm">Read more →</a></div></div></div>
     </div>
   </div>
 </section>
@@ -917,7 +917,7 @@ fetch('post.json').then(function(r){return r.json();}).then(function(d){
   if(!d.posts||!d.posts.length)return;
   var c=document.getElementById('blgp');c.innerHTML='';
   d.posts.slice(0,3).forEach(function(p,i){
-    c.innerHTML+='<div class="blgc"><div class="blgi '+bgCls[i%3]+'">'+p.emoji+'</div><div class="blgb"><div class="blgcat">'+p.category+'</div><h3>'+p.title+'</h3><p>'+p.excerpt+'</p><div class="blgm"><span>'+p.date+'</span><a href="blog.html" class="rm">Read more →</a></div></div></div>';
+    c.innerHTML+='<div class="blgc"><div class="blgi '+bgCls[i%3]+'">'+p.emoji+'</div><div class="blgb"><div class="blgcat">'+p.category+'</div><h3>'+p.title+'</h3><p>'+p.excerpt+'</p><div class="blgm"><span>'+p.date+'</span><a href="'+p.url+'" class="rm">Read more →</a></div></div></div>';
   });
 }).catch(function(){});
 
