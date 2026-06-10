@@ -1,15 +1,63 @@
 {
   "communities": {
     "0": [
-      "404html_custom_404_page",
-      "affiliate_disclosurehtml_affiliate_disclosure_page",
-      "contacthtml_contact_page",
-      "cookie_policyhtml_cookie_policy_page",
-      "indexhtml_homepage",
-      "privacy_policyhtml_privacy_policy_page",
-      "termshtml_terms_of_use_page"
+      "beginner_password_wizard",
+      "blog_been_hacked",
+      "blog_best_password_managers_2026",
+      "blog_common_password_mistakes",
+      "blog_different_password_every_site",
+      "blog_html",
+      "blog_two_factor_authentication",
+      "blog_what_makes_password_strong",
+      "github_pages",
+      "llms_txt",
+      "post",
+      "post_posts",
+      "readme_md",
+      "robots_txt",
+      "sitemap_xml",
+      "update_sitemap_yml",
+      "validate_html_yml"
     ],
     "1": [
+      "404_html",
+      "about_html",
+      "affiliate_disclosure_html",
+      "contact_html",
+      "cookie_policy_html",
+      "emma_watts",
+      "fsp_ck_cookie",
+      "google_fonts_nunito",
+      "index_html",
+      "kokal_operations_ltd",
+      "ncsc_guidance",
+      "nist_sp_800_63b",
+      "privacy_policy_html",
+      "terms_html",
+      "troy_hunt_haveibeenpwned"
+    ],
+    "2": [
+      "blog_1password",
+      "blog_bitwarden",
+      "blog_emma_watts",
+      "blog_password_managers",
+      "index_freestrongpassword",
+      "index_password_wizard",
+      "llms_bitwarden",
+      "llms_freestrongpassword",
+      "llms_haveibeenpwned",
+      "llms_ibm_breach_2024",
+      "llms_kokal_operations",
+      "llms_ncsc",
+      "llms_nist_800_63b",
+      "llms_verizon_dbir_2025"
+    ],
+    "3": [
+      "script",
+      "script_passwordgenerator",
+      "script_passwordgenerator_constructor",
+      "script_passwordgenerator_fallbackgenerate",
+      "script_passwordgenerator_generate",
       "script_passwordstrengthchecker",
       "script_passwordstrengthchecker_check",
       "script_passwordstrengthchecker_formattime",
@@ -17,56 +65,44 @@
       "script_passwordstrengthchecker_hassequence",
       "script_passwordstrengthchecker_iscommonpassword"
     ],
-    "2": [
-      "post",
-      "post_posts",
+    "4": [
+      "privacy_kokal_operations",
+      "privacy_policy_page",
+      "terms_kokal_operations",
+      "terms_terms_page"
+    ],
+    "5": [
       "post_site",
       "post_site_domain",
       "post_site_name"
     ],
-    "3": [
-      "script",
-      "script_passwordgenerator",
-      "script_passwordgenerator_constructor",
-      "script_passwordgenerator_fallbackgenerate",
-      "script_passwordgenerator_generate"
-    ],
-    "4": [
-      "abouthtml_about_page",
-      "blog_dashlane_suspends_accounts_brute_force_attackhtml_dashlane_article",
-      "bloghtml_blog_index"
-    ],
-    "5": [
-      "fbi_warns_kali365_phishing_bypasses_mfa_article",
-      "how_to_set_up_two_factor_authentication_simple_article",
-      "what_to_do_if_you_think_youve_been_hacked_article"
-    ],
     "6": [
-      "llms_txt_llms_document"
+      "sitemap_workflow",
+      "validate_workflow"
     ],
     "7": [
-      "readme_free_strong_password"
+      "assets_logo"
     ],
     "8": [
-      "robots_txt_robots_file"
+      "d131fbf10dd696ea699cfc926f19e7c5_txt"
     ]
   },
   "cohesion": {
-    "0": 0.2857142857142857,
-    "1": 0.6,
-    "2": 0.4,
-    "3": 0.5,
+    "0": 0.2647058823529412,
+    "1": 0.3333333333333333,
+    "2": 0.16483516483516483,
+    "3": 0.2727272727272727,
     "4": 0.6666666666666666,
-    "5": 1.0,
+    "5": 0.6666666666666666,
     "6": 1.0,
     "7": 1.0,
     "8": 1.0
   },
   "gods": [
     {
-      "id": "indexhtml_homepage",
-      "label": "Free Strong Password Homepage",
-      "degree": 7
+      "id": "llms_freestrongpassword",
+      "label": "Free Strong Password",
+      "degree": 9
     },
     {
       "id": "script_passwordstrengthchecker",
@@ -74,8 +110,18 @@
       "degree": 6
     },
     {
+      "id": "fsp_ck_cookie",
+      "label": "fsp-ck cookie",
+      "degree": 5
+    },
+    {
       "id": "script_passwordgenerator",
       "label": "PasswordGenerator",
+      "degree": 4
+    },
+    {
+      "id": "blog_password_managers",
+      "label": "Best Free Password Managers for Beginners 2026",
       "degree": 4
     },
     {
@@ -84,95 +130,85 @@
       "degree": 3
     },
     {
-      "id": "fbi_warns_kali365_phishing_bypasses_mfa_article",
-      "label": "MFA Not Enough? FBI Warns of New Kali365 Phishing",
+      "id": "index_freestrongpassword",
+      "label": "Free Strong Password",
+      "degree": 3
+    },
+    {
+      "id": "kokal_operations_ltd",
+      "label": "Kokal Operations Ltd",
       "degree": 2
     },
     {
-      "id": "how_to_set_up_two_factor_authentication_simple_article",
-      "label": "How to Set Up Two-Factor Authentication \u2014 Simple Steps",
+      "id": "beginner_password_wizard",
+      "label": "Beginner Password Wizard",
       "degree": 2
     },
     {
-      "id": "what_to_do_if_you_think_youve_been_hacked_article",
-      "label": "What to Do If You Think You've Been Hacked",
+      "id": "google_fonts_nunito",
+      "label": "Google Fonts Nunito",
       "degree": 2
-    },
-    {
-      "id": "abouthtml_about_page",
-      "label": "About Free Strong Password Page",
-      "degree": 2
-    },
-    {
-      "id": "blog_dashlane_suspends_accounts_brute_force_attackhtml_dashlane_article",
-      "label": "Dashlane Suspended Accounts After Brute-Force Attack Article",
-      "degree": 2
-    },
-    {
-      "id": "post_site_domain",
-      "label": "domain",
-      "degree": 1
     }
   ],
   "surprises": [
     {
-      "source": "About Free Strong Password Page",
-      "target": "Free Strong Password Homepage",
+      "source": "Emma Watts",
+      "target": "Free Strong Password",
       "source_files": [
-        "about.html",
-        "index.html"
+        "blog/best-free-password-managers-beginners-2026.html",
+        "llms.txt"
       ],
-      "confidence": "EXTRACTED",
-      "relation": "references",
-      "why": "connects across different repos/directories; bridges separate communities; peripheral node `About Free Strong Password Page` unexpectedly reaches hub `Free Strong Password Homepage`"
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; peripheral node `Emma Watts` unexpectedly reaches hub `Free Strong Password`"
     },
     {
-      "source": "Custom 404 Page",
-      "target": "Free Strong Password Homepage",
+      "source": "Free Strong Password",
+      "target": "Free Strong Password",
       "source_files": [
-        "404.html",
-        "index.html"
+        "index.html",
+        "llms.txt"
       ],
       "confidence": "EXTRACTED",
-      "relation": "references",
-      "why": "connects across different repos/directories; peripheral node `Custom 404 Page` unexpectedly reaches hub `Free Strong Password Homepage`"
+      "relation": "semantically_similar_to",
+      "why": "connects across different repos/directories; semantically similar concepts with no structural link"
     },
     {
-      "source": "Affiliate Disclosure Page",
-      "target": "Free Strong Password Homepage",
+      "source": "Bitwarden",
+      "target": "Bitwarden",
       "source_files": [
-        "affiliate-disclosure.html",
-        "index.html"
+        "blog/best-free-password-managers-beginners-2026.html",
+        "llms.txt"
       ],
       "confidence": "EXTRACTED",
-      "relation": "references",
-      "why": "connects across different repos/directories; peripheral node `Affiliate Disclosure Page` unexpectedly reaches hub `Free Strong Password Homepage`"
+      "relation": "semantically_similar_to",
+      "why": "connects across different repos/directories; semantically similar concepts with no structural link"
     },
     {
-      "source": "Contact Page",
-      "target": "Free Strong Password Homepage",
+      "source": "Kokal Operations Ltd",
+      "target": "Kokal Operations Ltd",
       "source_files": [
-        "contact.html",
-        "index.html"
+        "privacy-policy.html",
+        "terms.html"
       ],
       "confidence": "EXTRACTED",
-      "relation": "references",
-      "why": "connects across different repos/directories; peripheral node `Contact Page` unexpectedly reaches hub `Free Strong Password Homepage`"
+      "relation": "semantically_similar_to",
+      "why": "connects across different repos/directories; semantically similar concepts with no structural link"
     },
     {
-      "source": "Cookie Policy Page",
-      "target": "Free Strong Password Homepage",
+      "source": "Best Free Password Managers for Beginners 2026",
+      "target": "Free Strong Password",
       "source_files": [
-        "cookie-policy.html",
+        "blog/best-free-password-managers-beginners-2026.html",
         "index.html"
       ],
       "confidence": "EXTRACTED",
       "relation": "references",
-      "why": "connects across different repos/directories; peripheral node `Cookie Policy Page` unexpectedly reaches hub `Free Strong Password Homepage`"
+      "why": "connects across different repos/directories"
     }
   ],
   "tokens": {
-    "input": 75987,
-    "output": 1897
+    "input": 58290,
+    "output": 8821
   }
 }
