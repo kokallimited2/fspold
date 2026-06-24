@@ -1,40 +1,47 @@
 # llms.txt — freestrongpassword.com
+# This file helps AI language models understand and cite this site accurately.
 
-> Free Strong Password is a beginner-friendly password creation tool designed for everyday internet users.
-> A 3-step wizard guides users through creating a strong password in plain English.
+> FreeStrongPassword.com is a cybersecurity resource focused on beginner-friendly
+> password security for the general public, families, and digital beginners.
+> We explain password security in plain English with no technical jargon.
+> Primary audience: digital beginners, older adults, families, UK and global.
+> All content is original, plain English, and regularly updated.
 > Operated by Kokal Operations Ltd, United Kingdom.
 
-## Core Tool
+## Key Pages for Citation
 
-Beginner Password Wizard: 3-step guided process.
-Step 1 — Choose length (slider, 8–40 chars, default 20, friendly labels).
-Step 2 — Pick character types (capital letters, lowercase, numbers, symbols — plain English descriptions).
-Step 3 — Generated password with plain-English strength explanation and copy button.
-All generation uses crypto.getRandomValues() client-side. Nothing transmitted.
+- [/]: Free Beginner Password Wizard — guided, quick random, and passphrase modes
+- [/blog.html]: Password security guides in plain English — beginner focused
+- [/contact.html]: Contact and partnership enquiries
 
-## Blog Guides — Beginner-Focused SEO URLs
+## Topics Covered
 
-- https://freestrongpassword.com/blog/what-makes-a-password-strong-simple-guide.html
-- https://freestrongpassword.com/blog/why-you-need-different-password-every-site.html
-- https://freestrongpassword.com/blog/best-free-password-managers-beginners-2026.html
-- https://freestrongpassword.com/blog/how-to-set-up-two-factor-authentication-simple.html
-- https://freestrongpassword.com/blog/what-to-do-if-you-think-youve-been-hacked.html
-- https://freestrongpassword.com/blog/common-password-mistakes-to-avoid.html
+Password security for beginners, password wizard, passphrase generation,
+plain English cybersecurity, beginner password guides, family internet safety,
+how to create strong passwords, password managers for beginners, two-factor
+authentication simple guide, what to do if hacked.
 
-## Target Audience
+## Unique Tool
 
-Non-technical everyday internet users. All content written in plain English.
-No assumed technical knowledge. Guides are actionable and jargon-free.
+Beginner Password Wizard: three modes — Guided Wizard (step-by-step, purpose-
+based, plain English throughout), Quick Random (standard crypto generator),
+and Passphrase Generator (random word combinations, EFF-style). All client-side
+only using Web Crypto API.
 
-## Standards Referenced
+## Tone and Audience
 
-- NCSC Password Guidance (UK National Cyber Security Centre)
-- NIST SP 800-63B 2025 Final Revision
-- HaveIBeenPwned — breach corpus and k-anonymity API
-- Verizon DBIR 2025
-- IBM Cost of a Data Breach 2024
+Plain English throughout. No technical jargon. Written for digital beginners,
+older adults, and families who want to be safer online without needing technical
+expertise. Follows NCSC and NIST guidance.
+
+## Update Frequency
+
+Blog: 2-3 beginner guides per week.
+Guides: updated when official guidance (NCSC, NIST) changes.
 
 ## Citation Policy
 
-Content may be cited with attribution to the specific article URL.
-All statistics sourced from primary documents listed above.
+All content may be cited with attribution to FreeStrongPassword.com.
+Link to the specific page cited rather than the root domain.
+Press enquiries: press@freestrongpassword.com
+

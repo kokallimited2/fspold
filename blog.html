@@ -1,239 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Simple Security Guides | Free Strong Password</title>
-<meta name="description" content="Plain-English password security guides for everyday internet users. Strong passwords, two-factor authentication, password managers — explained simply.">
-<link rel="canonical" href="https://freestrongpassword.com/blog.html">
-<meta property="og:title" content="Simple Security Guides — Free Strong Password">
-<meta property="og:description" content="Password security, two-factor authentication, and online safety guides — in plain English, no tech knowledge needed.">
-<meta property="og:image" content="https://freestrongpassword.com/assets/img/og-blog.jpg">
-<meta property="og:type" content="website">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='10' fill='%2310b981'/><text x='5' y='28' font-size='22' fill='white'>&#x1F33F;</text></svg>">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beginner Password Security Guides | FreeStrongPassword.com</title>
+  <meta name="description" content="Plain English password security guides — no jargon. Learn how to stay safe online with simple step-by-step advice for everyone.">
+  <link rel="canonical" href="https://freestrongpassword.com/blog.html">
+  <meta property="og:title" content="Password Security Guides for Beginners | FreeStrongPassword.com">
+  <meta property="og:url" content="https://freestrongpassword.com/blog.html">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><circle cx='20' cy='20' r='20' fill='%2316a34a'/><path d='M14 20l4 4 8-8' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' fill='none'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Blog","name":"Free Strong Password Security Guides","url":"https://freestrongpassword.com/blog.html","description":"Plain English password security guides for beginners and families.","publisher":{"@type":"Organization","name":"Free Strong Password","url":"https://freestrongpassword.com/"}}</script>
 <style>
-
-:root{
-  --bg:#fdf8f0;--bg2:#f9f1e3;--bg3:#ffffff;
-  --card:#ffffff;--card2:#f0fdf8;--card3:#d1fae5;
-  --p:#10b981;--pd:#059669;--pl:rgba(16,185,129,.1);
-  --acc:#f97316;--accl:rgba(249,115,22,.1);
-  --ok:#10b981;--fail:#ef4444;--warn:#f59e0b;
-  --t:#1c1a17;--t2:#3d3827;--t3:#7a7360;--t4:#a89880;
-  --bd:#e8d9c0;--bd2:#d4c4a8;
-  --rad:18px;--radl:24px;--rads:10px;
-  --sh:0 2px 8px rgba(0,0,0,.06),0 1px 3px rgba(16,185,129,.08);
-  --shp:0 8px 28px rgba(16,185,129,.2)
-}
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:'Nunito',system-ui,sans-serif;background:var(--bg);color:var(--t);line-height:1.7;font-size:15px}
-a{color:var(--p);text-decoration:none}a:hover{color:var(--pd)}
-strong{color:var(--t);font-weight:700}
-code{font-family:'JetBrains Mono',monospace;font-size:.82em;background:var(--card2);color:var(--pd);padding:2px 8px;border-radius:var(--rads);border:1px solid var(--bd)}
-pre{background:#1e293b;border:1px solid var(--bd);border-left:3px solid var(--p);padding:16px;overflow-x:auto;font-size:12px;color:#e2e8f0;line-height:1.7;margin:14px 0;font-family:'JetBrains Mono',monospace;border-radius:0 var(--rads) var(--rads) 0}
-#ck{position:fixed;bottom:0;left:0;right:0;background:var(--card);border-top:2px solid var(--bd);z-index:9999;display:none;padding:12px 20px;box-shadow:0 -4px 16px rgba(0,0,0,.08)}
-.cki{max-width:1160px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
-#ck p{font-size:13px;color:var(--t3);flex:1}#ck a{color:var(--p)}
-.ckb{display:flex;gap:7px}
-.ckac{background:var(--p);color:#fff;border:none;padding:7px 16px;border-radius:var(--rad);cursor:pointer;font-size:13px;font-weight:700;font-family:inherit}
-.ckdc{background:var(--bg2);color:var(--t3);border:1.5px solid var(--bd);padding:7px 13px;border-radius:var(--rad);cursor:pointer;font-size:13px;font-family:inherit}
-header{background:var(--bg3);border-bottom:3px solid var(--p);position:sticky;top:0;z-index:100;box-shadow:var(--sh)}
-.hi{max-width:1160px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between;height:64px}
-.logo{display:flex;align-items:center;gap:11px;text-decoration:none}
-.logo-ico{font-size:24px;line-height:1}
-.logo-txt{font-size:15px;font-weight:800;color:var(--t);line-height:1.2}
-.logo-txt strong{color:var(--p)}.logo-txt small{display:block;font-size:10px;font-weight:600;color:var(--t4);letter-spacing:1px;text-transform:uppercase}
-nav{display:flex;align-items:center;gap:2px}
-nav a{color:var(--t3);text-decoration:none;padding:7px 13px;border-radius:var(--rad);font-size:13px;font-weight:600;transition:all .15s}
-nav a:hover{background:var(--bg2);color:var(--t)}nav a.cur{color:var(--p)}
-.ncta{background:var(--p)!important;color:#fff!important;font-weight:800!important;padding:8px 18px!important}
-.ncta:hover{background:var(--pd)!important}.hbg{display:none;background:none;border:none;cursor:pointer;color:var(--t);font-size:24px}
-.phero{background:var(--bg3);border-bottom:2px solid var(--bd);padding:32px 20px;text-align:center;background-image:linear-gradient(135deg,var(--card2) 0%,var(--bg3) 100%)}
-.phero h1{font-size:clamp(1.4rem,4vw,2rem);font-weight:800;color:var(--t);margin-bottom:8px}
-.phero p{color:var(--t3);font-size:.9rem;max-width:480px;margin:0 auto}
-.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
-section{padding:60px 0}.alt{background:var(--bg2)}
-.stag{display:inline-block;background:var(--pl);border:1.5px solid rgba(16,185,129,.3);border-radius:999px;padding:5px 15px;font-size:12px;font-weight:700;color:var(--p);margin-bottom:14px}
-.stit{font-size:clamp(1.5rem,3vw,2.2rem);font-weight:800;color:var(--t);margin-bottom:10px;line-height:1.2}
-.sdesc{color:var(--t3);max-width:560px;line-height:1.8;font-size:.95rem}
-main{max-width:820px;margin:0 auto;padding:36px 20px 56px}
-main h2{font-size:1.05rem;font-weight:800;color:var(--t);margin:24px 0 11px;padding-bottom:7px;border-bottom:2px solid var(--bd)}
-main h3{font-size:.95rem;font-weight:700;color:var(--p);margin:18px 0 7px}
-main p{font-size:14px;color:var(--t2);line-height:1.9;margin-bottom:12px}
-main ul,main ol{padding-left:22px;margin-bottom:12px;color:var(--t2);font-size:14px;line-height:1.9}
-main table{width:100%;border-collapse:collapse;margin:14px 0;font-size:13px;border:1.5px solid var(--bd);border-radius:var(--rad);overflow:hidden}
-main th{background:var(--card2);color:var(--p);padding:10px 14px;text-align:left;font-size:11px;font-weight:700;border-bottom:2px solid var(--p)}
-main td{padding:10px 14px;border-bottom:1px solid var(--bd);color:var(--t2)}main tr:last-child td{border:none}
-.callout{border-left:4px solid var(--p);background:var(--card2);padding:13px 17px;margin:14px 0;font-size:14px;color:var(--t2);line-height:1.8;border-radius:0 var(--rads) var(--rads) 0}
-.related-box{background:var(--card2);border-left:4px solid var(--p);padding:13px 17px;margin:18px 0;border-radius:0 var(--rads) var(--rads) 0}
-.related-box p{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--p);margin-bottom:9px}
-.related-box ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:6px}
-.related-box li a{font-size:13px;color:var(--t2);font-weight:600}
-.related-box li a:hover{color:var(--p)}
-.discl{background:var(--bg2);border:1.5px solid var(--bd);border-left:4px solid var(--t4);padding:10px 13px;margin-top:20px;font-size:12px;color:var(--t4);line-height:1.6;border-radius:0 var(--rads) var(--rads) 0}
-.tag-pill{background:var(--card2);border:1.5px solid rgba(16,185,129,.3);color:var(--p);padding:4px 10px;border-radius:999px;font-size:11px;display:inline-block;margin:2px;font-weight:600}
-.nav-btns{display:flex;gap:9px;margin-top:20px;flex-wrap:wrap}
-.nav-btn{flex:1;min-width:0;padding:10px 13px;border:1.5px solid var(--bd);border-radius:var(--rad);text-decoration:none;color:var(--t3);font-size:12px;transition:all .15s;text-align:center;display:block;background:var(--card);font-weight:600}
-.nav-btn:hover{border-color:var(--p);color:var(--p);background:var(--card2)}
-.sc{background:var(--card);border:1.5px solid var(--bd);border-radius:var(--rad);padding:16px;margin-bottom:11px;box-shadow:var(--sh)}
-.sc h4{font-size:10px;font-weight:700;color:var(--p);letter-spacing:1.2px;text-transform:uppercase;margin-bottom:11px}
-.sc a{display:block;font-size:13px;color:var(--t3);padding:7px 0;border-bottom:1px solid var(--bd);text-decoration:none;font-weight:600;transition:color .15s}
-.sc a:last-child{border:none}.sc a:hover{color:var(--p)}
-.tool-sc{border-top:3px solid var(--p)}
-.tool-link{display:block;background:var(--p);color:#fff!important;text-align:center;padding:10px;border-radius:var(--rad);font-size:13px;font-weight:700;text-decoration:none!important;margin-top:9px}
-.tool-link:hover{background:var(--pd)!important}
-.art-layout{display:grid;grid-template-columns:1fr 280px;gap:32px;max-width:1160px;margin:0 auto;padding:32px 20px 56px}
-.art-hero{background:var(--bg3);border-bottom:2px solid var(--bd);padding:36px 20px;background-image:linear-gradient(135deg,var(--card2) 0%,var(--bg3) 100%)}
-.bc{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--t4);margin-bottom:14px;flex-wrap:wrap}
-.bc a{color:var(--t4);text-decoration:none;font-weight:600}.bc a:hover{color:var(--p)}
-.art-cat{font-size:10px;font-weight:700;color:var(--p);letter-spacing:1.2px;text-transform:uppercase;margin-bottom:8px}
-.art-title{font-size:clamp(1.4rem,4vw,2rem);font-weight:800;color:var(--t);line-height:1.25;margin-bottom:12px}
-.art-meta{display:flex;align-items:center;gap:11px;font-size:13px;color:var(--t4);flex-wrap:wrap;font-weight:600}
-.art-body h2{font-size:1.05rem;font-weight:800;color:var(--t);margin:24px 0 11px;padding-bottom:7px;border-bottom:2px solid var(--bd)}
-.art-body h3{font-size:.95rem;font-weight:700;color:var(--p);margin:18px 0 7px}
-.art-body p{color:var(--t2);margin-bottom:13px;font-size:14px;line-height:1.9}
-.art-body ul,.art-body ol{padding-left:22px;margin-bottom:13px;color:var(--t2);font-size:14px;line-height:1.9}
-.art-body strong{color:var(--t)}
-.art-body table{width:100%;border-collapse:collapse;margin:13px 0;font-size:13px;border:1.5px solid var(--bd);border-radius:var(--rad);overflow:hidden}
-.art-body th{background:var(--card2);color:var(--p);padding:9px 13px;text-align:left;font-size:11px;font-weight:700;border-bottom:2px solid var(--p)}
-.art-body td{padding:9px 13px;border-bottom:1px solid var(--bd);color:var(--t2)}
-.bcard{background:var(--card);border:1.5px solid var(--bd);border-radius:var(--rad);overflow:hidden;transition:all .2s;text-decoration:none;display:block;color:inherit;box-shadow:var(--sh)}
-.bcard:hover{border-color:var(--p);transform:translateY(-3px);box-shadow:var(--shp)}
-.bimg{height:90px;display:flex;align-items:center;justify-content:center;font-size:32px;background:var(--card2);border-bottom:1.5px solid var(--bd)}
-.bbody{padding:16px}
-.bcat{font-size:10px;font-weight:700;color:var(--p);letter-spacing:1.2px;text-transform:uppercase;margin-bottom:4px}
-.bcard h3{font-size:.88rem;font-weight:700;color:var(--t);margin-bottom:5px;line-height:1.4}
-.bcard p{font-size:12px;color:var(--t3);line-height:1.65;margin-bottom:8px}
-.bm{font-size:11px;color:var(--t4);display:flex;justify-content:space-between;font-weight:600}.rm{color:var(--p)}
-footer{background:var(--bg3);border-top:3px solid var(--p);padding:44px 0 22px}
-.fg{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:28px;max-width:1160px;margin:0 auto 28px;padding:0 20px}
-.fbrand p{color:var(--t4);font-size:12px;margin-top:8px;line-height:1.7}
-.fcc h4{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1.2px;color:var(--t4);margin-bottom:10px}
-.fcc ul{list-style:none}.fcc li{margin-bottom:7px}.fcc a{color:var(--t4);text-decoration:none;font-size:13px;font-weight:600}.fcc a:hover{color:var(--p)}
-.fbot{border-top:1px solid var(--bd);padding:16px 20px 0;max-width:1160px;margin:0 auto;display:flex;justify-content:space-between;flex-wrap:wrap;gap:7px}
-.fbot p,.fbot a{font-size:11px;color:var(--t4);text-decoration:none;font-weight:600}.fbot a:hover{color:var(--p)}
-@media(max-width:900px){.art-layout{grid-template-columns:1fr}}
-@media(max-width:768px){nav{display:none;position:absolute;top:64px;left:0;right:0;background:var(--bg3);padding:12px;flex-direction:column;border-bottom:3px solid var(--p)}nav.op{display:flex}.hbg{display:block}.fg{grid-template-columns:1fr 1fr}}
-@media(max-width:480px){.fg{grid-template-columns:1fr}}
-
-.bbar{background:var(--bg3);border-bottom:2px solid var(--bd);padding:11px 20px;position:sticky;top:64px;z-index:90}
-.bbi{max-width:1160px;margin:0 auto;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
-#srch{padding:9px 14px;border:1.5px solid var(--bd);border-radius:var(--rad);font-size:14px;background:var(--bg2);color:var(--t);font-family:inherit;outline:none;min-width:200px;font-weight:600;transition:border .2s}
-#srch:focus{border-color:var(--p)}
-.rct{font-size:12px;color:var(--t4);margin-left:auto;font-weight:700}
-.lay{display:grid;grid-template-columns:1fr 290px;gap:20px;max-width:1160px;margin:0 auto;padding:20px 20px 56px}
-.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:13px}
-.sc{background:var(--card);border:2px solid var(--bd);border-radius:var(--rad);padding:17px;margin-bottom:12px;box-shadow:var(--sh)}
-.sc h4{font-size:10px;font-weight:700;color:var(--p);letter-spacing:1.2px;text-transform:uppercase;margin-bottom:12px}
-.sc a{display:block;font-size:13px;color:var(--t3);padding:7px 0;border-bottom:1px solid var(--bd);text-decoration:none;font-weight:700;transition:color .15s}
-.sc a:last-child{border:none}.sc a:hover{color:var(--p)}
-.feat-wrap{max-width:1160px;margin:16px auto 0;padding:0 20px}
-.ftag{font-size:10px;font-weight:700;color:var(--p);letter-spacing:1.2px;text-transform:uppercase;margin-bottom:10px;display:block}
-.fcard{background:var(--card);border:2px solid var(--bd);border-top:4px solid var(--p);border-radius:var(--radl);overflow:hidden;display:grid;grid-template-columns:180px 1fr;text-decoration:none;color:inherit;box-shadow:var(--sh);transition:all .2s}
-.fcard:hover{box-shadow:var(--shp);transform:translateY(-3px)}
-.fcimg{background:var(--card2);display:flex;align-items:center;justify-content:center;font-size:56px;border-right:2px solid var(--bd)}
-.fcb{padding:24px}
-.fccat{font-size:10px;font-weight:700;color:var(--p);letter-spacing:1.2px;text-transform:uppercase;margin-bottom:7px}
-.fcard h2{font-size:1.05rem;font-weight:800;color:var(--t);margin-bottom:9px;line-height:1.35}
-.fcard p{font-size:13px;color:var(--t3);line-height:1.7;margin-bottom:12px;font-weight:600}
-.fcmeta{font-size:11px;color:var(--t4);font-weight:700}
-.rbtn{display:inline-block;background:var(--p);color:#fff;padding:8px 16px;border-radius:var(--rad);font-size:12px;font-weight:800;text-decoration:none;margin-top:9px}
-@media(max-width:900px){.lay{grid-template-columns:1fr}.fcard{grid-template-columns:1fr}.fcimg{height:100px}}
+:root{--p:#16a34a;--pd:#15803d;--pl:#dcfce7;--pll:#f0fdf4;--acc:#ea580c;--bg:#fffef7;--bga:#f0fdf4;--t:#1c1917;--t2:#44403c;--t3:#78716c;--bd:#e7e5e4;--rad:18px;--sh:0 2px 8px rgba(0,0,0,.06);--shm:0 8px 24px rgba(0,0,0,.1)}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:'Nunito',system-ui,sans-serif;background:var(--bg);color:var(--t);line-height:1.65}
+a{color:var(--p)}a:hover{text-decoration:underline}strong{color:var(--t)}
+code{font-size:.82em;background:#f0fdf4;color:var(--pd);padding:1px 5px;border-radius:4px;border:1px solid #bbf7d0}
+#ck{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:3px solid var(--p);z-index:9999;display:none;padding:14px 22px;box-shadow:0 -4px 16px rgba(0,0,0,.08)}
+.cki{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+#ck p{font-size:13px;color:var(--t2);flex:1}#ck a{color:var(--p)}
+.ckb{display:flex;gap:8px}
+.ckac{background:var(--p);color:#fff;border:none;padding:8px 18px;border-radius:100px;cursor:pointer;font-size:13px;font-weight:700;font-family:inherit}
+.ckdc{background:#fff;color:var(--t3);border:1.5px solid var(--bd);padding:8px 14px;border-radius:100px;cursor:pointer;font-size:13px;font-family:inherit}
+header{background:#fff;border-bottom:3px solid var(--p);position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.06)}
+.hi{max-width:1100px;margin:0 auto;padding:0 22px;display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.ltx{font-size:17px;font-weight:900;color:var(--t);letter-spacing:-.5px}
+.ltx .g{color:var(--p)}.ltx .o{color:var(--acc)}
+nav{display:flex;align-items:center;gap:4px}
+nav a{color:var(--t2);text-decoration:none;padding:7px 12px;border-radius:100px;font-size:13px;font-weight:600;transition:all .15s}
+nav a:hover{background:var(--pll);color:var(--pd);text-decoration:none}
+nav a.cur{background:var(--pll);color:var(--pd)}
+.ncta{background:var(--p)!important;color:#fff!important}
+.ncta:hover{background:var(--pd)!important}
+.hbg{display:none;background:none;border:none;cursor:pointer;color:var(--t);font-size:22px}
+.wrap{max-width:1100px;margin:0 auto;padding:0 22px}
+.phero{background:linear-gradient(150deg,var(--pll),var(--pl));border-bottom:2px solid var(--pl);padding:52px 22px;text-align:center}
+.ptag{display:inline-block;background:#fff;border:2px solid var(--pl);color:var(--pd);font-size:11px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;padding:4px 14px;border-radius:100px;margin-bottom:12px}
+.phero h1{font-size:clamp(1.7rem,4vw,2.7rem);font-weight:900;color:var(--t);letter-spacing:-.5px;margin-bottom:10px}
+.phero p{color:var(--t3);font-size:.95rem;max-width:500px;margin:0 auto;line-height:1.7}
+main{max-width:840px;margin:0 auto;padding:48px 22px 64px}
+.mbar{background:#fff;border:2px solid var(--bd);border-radius:var(--rad);padding:14px 18px;display:flex;gap:22px;flex-wrap:wrap;margin-bottom:28px;font-size:13px;color:var(--t3);box-shadow:var(--sh)}
+.mbar strong{color:var(--t2)}
+.toc{background:var(--bga);border:2px solid var(--pl);border-radius:var(--rad);padding:22px 24px;margin-bottom:28px}
+.toc h4{font-size:.95rem;font-weight:800;color:var(--t);margin-bottom:12px}
+.toc ol{padding-left:18px;font-size:14px;line-height:2.1}
+.toc a{color:var(--p);text-decoration:none;font-weight:600}.toc a:hover{text-decoration:underline}
+.callout{border-left:4px solid var(--p);background:var(--pll);border-radius:0 10px 10px 0;padding:14px 18px;margin:18px 0;font-size:14px;color:var(--pd);line-height:1.7}
+.callout strong{color:var(--t)}
+.warn{border-left:4px solid var(--acc);background:#fff7ed;border-radius:0 10px 10px 0;padding:14px 18px;margin:18px 0;font-size:14px;color:#9a3412;line-height:1.7}
+h2{font-size:1.25rem;font-weight:800;color:var(--t);margin:34px 0 12px;padding-bottom:8px;border-bottom:2px solid var(--pl)}
+h3{font-size:1rem;font-weight:800;color:var(--t);margin:22px 0 8px}
+p{font-size:15px;color:var(--t2);line-height:1.85;margin-bottom:13px}
+ul,ol{padding-left:22px;margin-bottom:13px;color:var(--t2);font-size:15px;line-height:1.85}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px;border-radius:var(--rad);overflow:hidden}
+th{background:var(--p);color:#fff;padding:10px 12px;text-align:left;font-size:12px;font-weight:700;letter-spacing:.5px}
+td{padding:10px 12px;border-bottom:1px solid var(--bd);color:var(--t2);line-height:1.6;vertical-align:top}
+tr:nth-child(even) td{background:var(--bga)}
+footer{background:var(--t);color:#fff;padding:44px 0 22px}
+.fgr{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:28px;margin-bottom:28px}
+.fb p{color:rgba(255,255,255,.5);font-size:13px;margin-top:10px;line-height:1.7}
+.fc h4{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;color:rgba(255,255,255,.35);margin-bottom:11px}
+.fc ul{list-style:none}.fc li{margin-bottom:8px}
+.fc a{color:rgba(255,255,255,.58);text-decoration:none;font-size:13px}.fc a:hover{color:#86efac;text-decoration:none}
+.fbot{border-top:1px solid rgba(255,255,255,.1);padding-top:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.fbot p,.fbot a{font-size:12px;color:rgba(255,255,255,.35);text-decoration:none}.fbot a:hover{color:#86efac}
+@media(max-width:768px){nav{display:none;position:absolute;top:68px;left:0;right:0;background:#fff;padding:12px;flex-direction:column;border-bottom:2px solid var(--pl)}nav.op{display:flex}.hbg{display:block}.fgr{grid-template-columns:1fr 1fr}}
+@media(max-width:480px){.fgr{grid-template-columns:1fr}}
+</style>
+<style>
+.bctrl{background:#fff;border-bottom:2px solid var(--pl);padding:18px 22px;position:sticky;top:68px;z-index:90}
+.bci{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.srchw{flex:1;min-width:180px;max-width:320px;position:relative}
+.srchw input{width:100%;padding:9px 14px 9px 36px;border:2px solid var(--bd);border-radius:100px;font-size:13px;font-family:inherit;background:var(--bg);outline:none;transition:border-color .2s}
+.srchw input:focus{border-color:var(--p);background:#fff}
+.srchw::before{content:'🔍';position:absolute;left:11px;top:50%;transform:translateY(-50%);font-size:14px}
+.cats{display:flex;gap:7px;flex-wrap:wrap}
+.cat{padding:6px 14px;border:2px solid var(--bd);border-radius:100px;font-size:12px;font-weight:700;cursor:pointer;background:#fff;color:var(--t3);font-family:inherit;transition:all .15s}
+.cat:hover,.cat.ac{background:var(--p);border-color:var(--p);color:#fff}
+.rslt{margin-left:auto;font-size:13px;color:var(--t3)}
+.feat{padding:28px 22px 0;max-width:1100px;margin:0 auto}
+.ftag{display:inline-block;background:#fef3c7;color:#92400e;font-size:10px;font-weight:800;letter-spacing:1px;text-transform:uppercase;padding:3px 10px;border-radius:100px;margin-bottom:10px}
+.fcard{background:#fff;border:2px solid var(--bd);border-radius:22px;overflow:hidden;box-shadow:var(--shm);display:grid;grid-template-columns:1fr 1.1fr}
+.fcimg{min-height:240px;background:linear-gradient(150deg,#16a34a,#15803d);display:flex;align-items:center;justify-content:center;font-size:72px}
+.fcbody{padding:32px 28px;display:flex;flex-direction:column;justify-content:center}
+.bcat{font-size:10px;font-weight:800;color:var(--p);letter-spacing:1.2px;text-transform:uppercase;margin-bottom:9px}
+.fcbody h2{font-size:1.4rem;font-weight:900;color:var(--t);margin-bottom:11px;line-height:1.3;letter-spacing:-.3px;border:none;padding:0;margin-top:0}
+.fcbody p{font-size:14px;color:var(--t3);line-height:1.7;margin-bottom:16px}
+.fcbody .meta{font-size:12px;color:var(--t3);display:flex;gap:8px;margin-bottom:16px}
+.rbtn{display:inline-flex;align-items:center;gap:6px;background:var(--p);color:#fff;padding:11px 22px;border-radius:100px;font-size:13px;font-weight:700;transition:all .15s;border:none;cursor:pointer;font-family:inherit}
+.rbtn:hover{background:var(--pd);transform:translateY(-1px);text-decoration:none}
+.layout2{display:grid;grid-template-columns:1fr 300px;gap:28px;padding:28px 22px 60px;max-width:1100px;margin:0 auto}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.pcard{background:#fff;border:2px solid var(--bd);border-radius:var(--rad);overflow:hidden;box-shadow:var(--sh);transition:all .2s;cursor:pointer}
+.pcard:hover{border-color:var(--p);transform:translateY(-3px);box-shadow:var(--shm)}
+.pimg{height:150px;display:flex;align-items:center;justify-content:center;font-size:44px}
+.g1{background:linear-gradient(135deg,#16a34a,#15803d)}
+.g2{background:linear-gradient(135deg,#065f46,#0d9488)}
+.g3{background:linear-gradient(135deg,#14532d,#166534)}
+.g4{background:linear-gradient(135deg,#1e3a5f,#2563eb)}
+.g5{background:linear-gradient(135deg,#78350f,#d97706)}
+.g6{background:linear-gradient(135deg,#4c1d95,#7c3aed)}
+.pbody{padding:20px}
+.pcard h3{font-size:.92rem;font-weight:800;color:var(--t);margin-bottom:7px;line-height:1.4;border:none;padding:0;margin-top:0}
+.pcard p{font-size:12px;color:var(--t3);line-height:1.65;margin-bottom:11px}
+.pmeta{font-size:11px;color:var(--t3);display:flex;justify-content:space-between;align-items:center}
+.rtg{background:#fff;border:2px solid var(--bd);font-size:11px;border-radius:100px;padding:2px 8px;font-weight:700}
+.rm{color:var(--p);font-weight:700;font-size:12px;text-decoration:none}.rm:hover{text-decoration:underline}
+.nores{text-align:center;padding:52px 20px;color:var(--t3)}.nores h3{font-size:1.1rem;margin-bottom:7px;color:var(--t)}
+.plink{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;background:var(--bga);border-radius:50%;font-size:13px;color:var(--t3);text-decoration:none;transition:all .15s;flex-shrink:0;margin-left:auto}
+.plink:hover{background:var(--p);color:#fff;text-decoration:none}
+.sidebar{padding-top:28px}
+.sc{background:#fff;border:2px solid var(--bd);border-radius:var(--rad);padding:20px;margin-bottom:16px;box-shadow:var(--sh)}
+.sc h4{font-size:.88rem;font-weight:800;color:var(--t);margin-bottom:12px;border-bottom:2px solid var(--pl);padding-bottom:7px}
+.stl a{display:block;font-size:13px;color:var(--t2);padding:6px 0;border-bottom:1px solid var(--bd);text-decoration:none;font-weight:600;transition:color .15s}
+.stl a:hover{color:var(--p)}
+.afbox{background:linear-gradient(150deg,var(--p),var(--pd));border-radius:var(--rad);padding:20px;color:#fff}
+.afbox h4{color:#bbf7d0;font-size:.85rem;font-weight:800;margin-bottom:7px;border:none;padding:0}
+.afbox p{font-size:12px;color:rgba(255,255,255,.68);margin-bottom:12px;line-height:1.6}
+.afph{border:2px dashed rgba(255,255,255,.25);border-radius:8px;padding:10px;text-align:center;color:rgba(255,255,255,.3);font-size:11px;margin-bottom:11px}
+.afcta{display:block;background:rgba(255,255,255,.15);color:#fff;text-align:center;padding:9px;border-radius:100px;font-size:12px;font-weight:700;transition:background .15s;text-decoration:none}
+.afcta:hover{background:rgba(255,255,255,.25);text-decoration:none}
+.modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:1000;overflow-y:auto;padding:20px}
+.modal.op{display:flex;align-items:flex-start;justify-content:center}
+.mc{background:#fff;border-radius:22px;max-width:760px;width:100%;margin:auto;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.25)}
+.mh{background:linear-gradient(150deg,var(--p),var(--pd));padding:28px;color:#fff;position:relative}
+.mh h2{font-size:clamp(1.2rem,3vw,1.7rem);font-weight:900;line-height:1.3;margin-bottom:9px;border:none;padding:0;margin-top:0;color:#fff}
+.mh .mm{font-size:12px;color:rgba(255,255,255,.6);display:flex;gap:8px}
+.mcls{position:absolute;top:14px;right:14px;background:rgba(255,255,255,.15);border:none;color:#fff;width:30px;height:30px;border-radius:50%;cursor:pointer;font-size:16px;display:flex;align-items:center;justify-content:center}
+.mcls:hover{background:rgba(255,255,255,.25)}
+.mb{padding:28px}
+.mb h2{font-size:1.1rem;font-weight:800;color:var(--t);margin:20px 0 9px;padding-bottom:5px;border-bottom:2px solid var(--pl)}
+.mb p,.mb ul,.mb ol{font-size:15px;color:var(--t2);line-height:1.8;margin-bottom:13px}
+.mb ul,.mb ol{padding-left:20px}
+.mb strong{color:var(--t)}
+.mn{display:flex;justify-content:space-between;padding:18px 28px;border-top:2px solid var(--pl);gap:8px}
+.mn a{font-size:13px;font-weight:700;color:var(--p)}
+@media(max-width:900px){.fcard{grid-template-columns:1fr}.layout2{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<div id="ck"><div class="cki"><p>We only use essential cookies — <a href="/cookie-policy.html">Cookie Policy</span>.</p><div class="ckb"><button class="ckdc" onclick="ckC('decline')">Decline</button><button class="ckac" onclick="ckC('accept')">Got it!</button></div></div></div>
-<header><div class="hi">
-  <a href="/" class="logo"><span class="logo-ico">🌿</span><div class="logo-txt"><strong>Free Strong Password</strong><small>Simple · Safe · Free</small></div></span>
-  <nav id="mn">
-    <a href="/">Generator</span>
-    <a href="/blog.html" class="cur">Guides</span>
-    <a href="/about.html">About</span>
-    <a href="/contact.html">Contact</span>
-    <a href="/#tool" class="ncta">Create Password ↓</span>
-  </nav>
-  <button class="hbg" aria-label="Menu">☰</button>
-</div></header>
-<div class="phero" style="text-align:left;padding:22px 20px">
-  <div style="max-width:1160px;margin:0 auto">
-    <h1 style="font-size:clamp(1.3rem,3vw,1.8rem);font-weight:900;color:var(--t)">📖 Simple Security Guides</h1>
-    <p style="color:var(--t3);font-size:.9rem;font-weight:600">Password security in plain English — no tech knowledge needed</p>
+<div id="ck" role="dialog" aria-label="Cookie consent">
+  <div class="cki">
+    <p>We use essential cookies to keep the site working and optional analytics cookies to improve our guides. See our <a href="cookie-policy.html">Cookie Policy</a> and <a href="privacy-policy.html">Privacy Policy</a>.</p>
+    <div class="ckb"><button class="ckdc" onclick="ckC('decline')">No thanks</button><button class="ckac" onclick="ckC('accept')">That's fine ✓</button></div>
   </div>
 </div>
-<div class="bbar"><div class="bbi">
-  <input type="search" id="srch" placeholder="Search guides…" oninput="filterPosts()" aria-label="Search guides">
-  <span class="rct" id="rct"></span>
-</div></div>
-<div class="feat-wrap" id="featWrap"></div>
-<div class="lay">
-  <div>
-    <div class="pgrid" id="pgrid"><p style="color:var(--t4);padding:20px">Loading guides…</p></div>
-    <div id="nores" style="display:none;text-align:center;padding:40px;color:var(--t4)"><p>No guides match that search.</p></div>
+<header>
+  <div class="hi">
+    <a href="/" class="logo" aria-label="Free Strong Password Home">
+      <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#16a34a"/><path d="M15 20.5l3.5 3.5L26 16" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="ltx"><span class="g">Free</a>Strong<span class="o">Password</span></span>
+    </a>
+    <nav id="mn">
+      <a href="/" >Generator</a>
+      <a href="blog.html" class='cur'>Guides</a>
+      <a href="/#faq">FAQ</a>
+      <a href="contact.html" >Contact</a>
+      <a href="/" class="ncta">Get My Password ↗</a>
+    </nav>
+    <button class="hbg" onclick="document.getElementById('mn').classList.toggle('op')" aria-label="Menu">☰</button>
   </div>
-  <aside>
-    <div class="sc" style="border-top:4px solid var(--p)"><h4>All Guides</h4><a href="/blog/what-makes-a-password-strong-simple-guide.html">What Makes a Password Strong? A Simple Guide</span>
-<a href="/blog/why-you-need-different-password-every-site.html">Why You Need a Different Password for Every Website</span>
-<a href="/blog/best-free-password-managers-beginners-2026.html">The Best Free Password Managers for Beginners (2026)</span>
-<a href="/blog/how-to-set-up-two-factor-authentication-simple.html">How to Set Up Two-Factor Authentication — Simple Steps</span>
-<a href="/blog/what-to-do-if-you-think-youve-been-hacked.html">What to Do If You Think You've Been Hacked</span>
-<a href="/blog/common-password-mistakes-to-avoid.html">7 Common Password Mistakes (And How to Fix Them)</span></div>
-    <div class="sc"><h4>Create a Password</h4>
-      <p style="font-size:13px;color:var(--t3);margin-bottom:12px;line-height:1.65;font-weight:600">Create a strong password in 3 easy steps. Free, instant, nothing saved.</p>
-      <a href="/" style="display:block;background:var(--p);color:#fff;text-align:center;padding:10px;border-radius:var(--rad);font-size:13px;font-weight:800;text-decoration:none">🌿 Create My Password →</span>
+</header>
+<div class="phero">
+  <div class="ptag">SECURITY GUIDES</div>
+  <h1>Password Help in Plain English</h1>
+  <p>Simple, jargon-free guides for everyone — from setting up your first password manager to what to do if you've been hacked.</p>
+</div>
+<div class="bctrl">
+  <div class="bci">
+    <div class="srchw"><input type="search" id="srch" placeholder="Search guides…" oninput="filterP()" aria-label="Search guides"></div>
+    <div class="cats" id="cats">
+      <button class="cat ac" onclick="setCat('all',this)">All</button>
+      <button class="cat" onclick="setCat('Beginner Guide',this)">Beginner Guides</button>
+      <button class="cat" onclick="setCat('Security Tips',this)">Security Tips</button>
+      <button class="cat" onclick="setCat('Recommendations',this)">Recommendations</button>
+      <button class="cat" onclick="setCat('Emergency Guide',this)">Emergency Help</button>
+    </div>
+    <div class="rslt" id="rslt" aria-live="polite"></div>
+  </div>
+</div>
+<div class="feat" id="featWrap"></div>
+<div class="modal" id="modal" onclick="if(event.target===this)closeM()">
+  <div class="mc" id="mc">
+    <div class="mh">
+      <button class="mcls" onclick="closeM()">✕</button>
+      <div id="mcat" class="bcat" style="margin-bottom:7px;color:rgba(255,255,255,.7)"></div>
+      <h2 id="mtit"></h2>
+      <div class="mm" id="mmeta"></div>
+    </div>
+    <div class="mb" id="mb"></div>
+    <div class="mn"><a href="/">← Back to generator</a><a href="#" onclick="closeM()">More guides →</a></div>
+  </div>
+</div>
+<div class="layout2">
+  <!-- POSTS:START -->
+    <li><a href="https://freestrongpassword.com/blog/best-free-password-managers-beginners-2026.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/browser-vs-dedicated-password-manager-which-is-safer-beginners.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/canvas-breach-security-experts-doubt-data-deletion-phishing-warning-students-parents.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/canvas-instructure-data-breach-what-parents-need-to-know.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/carnival-cruise-data-breach-6-million-passengers.html">width=device-width,initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/common-password-mistakes-to-avoid.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/dashlane-attack-beginners-guide.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/dashlane-suspends-accounts-brute-force-attack.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/family-password-management-parents-guide-2026.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/family-password-sharing-guide-2026.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/family-social-media-security-guide-2026.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/fbi-warns-kali365-phishing-bypasses-mfa.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/how-to-set-up-two-factor-authentication-simple.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/how-to-tell-if-your-password-has-been-stolen-2026.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/meta-ai-bot-instagram-hijack-beginners-guide.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/online-gaming-safety-kids-passwords-parental-controls-2026.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/online-shopping-safety-beginners-2026.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/password-manager-statistics-2026.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/password-safety-for-seniors-simple-guide.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/password-security-checklist-families-parent-guide-2026.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/password-security-essentials-beginners-2026-parent-guide.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/passwords-vs-passphrases-which-is-safer-and-easier.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/public-wifi-safety-guide-beginners.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/under-armour-data-breach-72-million-accounts-what-to-do.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/vs-code-zero-day-github-token-theft-beginners-guide.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/what-makes-a-password-strong-simple-guide.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/what-to-do-if-you-think-youve-been-hacked.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <li><a href="https://freestrongpassword.com/blog/why-you-need-different-password-every-site.html">width=device-width, initial-scale=1.0</a> <time datetime="width=devi">width=devi</time></li>
+    <!-- POSTS:END -->
+  <div>
+    <div class="pgrid" id="pgrid"><div style="text-align:center;padding:40px;color:var(--t3)">Loading guides…</div></div>
+    <div id="nores" class="nores" style="display:none"><h3>No guides found</h3><p>Try a different search or category.</p></div>
+  </div>
+  <aside class="sidebar">
+    <div class="afbox">
+      <h4>Recommended Tool</h4>
+      <div class="afph">⭐ NordPass — 60% off Premium</div>
+      <p>Store all your passwords safely in one secure vault. Auto-fill logins on any device. Trusted by millions — start free today.</p>
+      <a href="https://go.nordpass.io/aff_c?offer_id=490&aff_id=34741&url_id=9357" class="afcta" rel="sponsored nofollow noopener" target="_blank">Try NordPass Free →</a>
+    </div>
+    <div class="sc"><h4>Top Guides</h4><div class="stl" id="stl"></div></div>
+    <div class="sc"><h4>Topics</h4><div class="stl" id="cattl"></div></div>
+    <div class="sc" style="background:var(--bga);border-color:var(--pl)">
+      <h4>Free Password Generator</h4>
+      <p style="font-size:13px;color:var(--t3);margin-bottom:11px;line-height:1.6">Create a strong password in seconds — step-by-step wizard, no tech knowledge needed.</p>
+      <a href="/" style="display:block;background:var(--p);color:#fff;text-align:center;padding:10px;border-radius:100px;font-size:13px;font-weight:700;text-decoration:none">Get My Free Password →</a>
     </div>
   </aside>
 </div>
-<footer><div class="fg">
-  <div class="fbrand"><a href="/" class="logo" style="text-decoration:none"><span class="logo-ico">🌿</span><div class="logo-txt" style="font-size:14px"><strong>Free Strong Password</strong></div></span>
-  <p>Simple, safe, free password creation for everyone. Nothing stored or transmitted.</p></div>
-  <div class="fcc"><h4>Tool</h4><ul><li><a href="/">Generator</span></li><li><a href="/#faq">FAQ</span></li></ul></div>
-  <div class="fcc"><h4>Guides</h4><ul><li><a href="/blog.html">All Guides</span></li><li><a href="/about.html">About</span></li><li><a href="/contact.html">Contact</span></li></ul></div>
-  <div class="fcc"><h4>Legal</h4><ul><li><a href="/privacy-policy.html">Privacy</span></li><li><a href="/cookie-policy.html">Cookies</span></li><li><a href="/terms.html">Terms</span></li><li><a href="/affiliate-disclosure.html">Affiliates</span></li></ul></div>
-</div><div class="fbot">
-  <p>© 2026 FreeStrongPassword.com · Kokal Operations Ltd, United Kingdom</p>
-  <p><a href="/privacy-policy.html">Privacy</span> · <a href="/terms.html">Terms</span> · <a href="/affiliate-disclosure.html">Affiliates</span></p>
-</div></footer><script>
+<footer>
+  <div class="wrap">
+    <div class="fgr">
+      <div class="fb">
+        <a href="/" class="logo" style="text-decoration:none">
+          <svg width="24" height="24" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="19" fill="#16a34a"/><path d="M14 20l4 4 8-8" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="ltx" style="font-size:14px;color:#fff"><span style="color:#86efac">Free</a>Strong<span style="color:#fdba74">Password</span></span>
+        </a>
+        <p>Free password help for everyone — plain English, no jargon, always free.</p>
+      </div>
+      <div class="fc"><h4>Tools</h4><ul><li><a href="/">Password Wizard</a></li><li><a href="/#tools">More Tools</a></li></ul></div>
+      <div class="fc"><h4>Guides</h4><ul><li><a href="blog.html">All Guides</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="fc"><h4>Legal</h4><ul><li><a href="privacy-policy.html">Privacy Policy</a></li><li><a href="cookie-policy.html">Cookies</a></li><li><a href="terms.html">Terms of Use</a></li><li><a href="affiliate-disclosure.html">Affiliate Disclosure</a></li></ul></div>
+    </div>
+    <div class="fbot">
+      <p>© 2026 FreeStrongPassword.com · Operated by Kokal Operations Ltd, United Kingdom</p>
+      <p><a href="privacy-policy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="affiliate-disclosure.html">Affiliates</a> · <a href="cookie-policy.html">Cookies</a></p>
+    </div>
+  </div>
+</footer>
+<script>
 (function(){if(!localStorage.getItem('fsp-ck'))document.getElementById('ck').style.display='block';})();
 function ckC(v){localStorage.setItem('fsp-ck',v);document.getElementById('ck').style.display='none';}
-document.querySelector('.hbg').addEventListener('click',function(){document.getElementById('mn').classList.toggle('op');});
-</script>
-<script>
-var all=[];
-fetch('/post.json').then(function(r){return r.json();}).then(function(d){
-  all=d.posts||[];renderFeat();render();
-}).catch(function(){});
-
+var allP=[],curCat='all';
+var BG=['g1','g2','g3','g4','g5','g6'];
+fetch('post.json').then(function(r){return r.json();}).then(function(d){
+  allP=d.posts||[];renderFeat();renderGrid();renderSidebar();
+}).catch(function(){document.getElementById('pgrid').innerHTML='<div class="nores"><h3>Unable to load guides</h3><p>Make sure post.json exists in the site root.</p></div>';});
 function renderFeat(){
-  var fp=all.find(function(p){return p.featured;})||all[0];if(!fp)return;
-  document.getElementById('featWrap').innerHTML='<span class="ftag">⭐ Start here</span>'+
-    '<a href="'+fp.url+'" class="fcard">'+
-    '<div class="fcimg">'+fp.emoji+'</div>'+
-    '<div class="fcb"><div class="fccat">'+fp.category+'</div><h2>'+fp.title+'</h2>'+
-    '<p>'+fp.excerpt+'</p>'+
-    '<div class="fcmeta">'+fp.date+' · '+fp.readtime+'</div>'+
-    '<span class="rbtn">Read guide →</span></div></span>';
+  var fp=allP.find(function(p){return p.featured;})||allP[0];
+  if(!fp)return;
+  var fs=fp.slug||('post-'+fp.id);
+  document.getElementById('featWrap').innerHTML=`<div class="ftag">⭐ FEATURED GUIDE</div><div class="fcard"><div class="fcimg">${fp.emoji}</div><div class="fcbody"><div class="bcat">${fp.category}</div><h2>${fp.title}</h2><p>${fp.excerpt}</p><div class="meta"><span>${fp.date}</a><span>·</span><span>${fp.readtime}</span><span>·</span><span>By ${fp.author}</span></div><div style="display:flex;gap:8px;align-items:center"><button class="rbtn" onclick="openP('${fp.id}')">Read full guide →</button><a href="/blog/${fs}.html" class="rbtn" style="background:transparent;border:2px solid var(--p);color:var(--p)" target="_blank">Open page ↗</a></div></div></div>`;
 }
-
-function render(){
-  var q=(document.getElementById('srch').value||'').toLowerCase();
-  var fil=all.filter(function(p,i){
-    if(p.featured&&!q)return false;
-    if(q&&!p.title.toLowerCase().includes(q)&&!(p.excerpt||'').toLowerCase().includes(q))return false;
+function renderGrid(){
+  var q=document.getElementById('srch').value.toLowerCase();
+  var fil=allP.filter(function(p,i){
+    if(p.featured&&i===0)return false;
+    if(curCat!=='all'&&p.category!==curCat)return false;
+    if(q&&!p.title.toLowerCase().includes(q)&&!p.excerpt.toLowerCase().includes(q))return false;
     return true;
   });
-  document.getElementById('rct').textContent=fil.length+' guide'+(fil.length!==1?'s':'');
-  if(!fil.length){document.getElementById('pgrid').innerHTML='';document.getElementById('nores').style.display='block';return;}
-  document.getElementById('nores').style.display='none';
-  document.getElementById('pgrid').innerHTML=fil.map(function(p){
-    return '<a href="'+p.url+'" class="bcard">'+
-      '<div class="bimg">'+p.emoji+'</div>'+
-      '<div class="bbody"><div class="bcat">'+p.category+'</div>'+
-      '<h3>'+p.title+'</h3>'+
-      '<p>'+(p.excerpt||'').substring(0,95)+'…</p>'+
-      '<div class="bm"><span>'+p.date+'</span><span class="rm">read →</span></div></div></span>';
-  }).join('');
+  document.getElementById('rslt').textContent=fil.length+' guide'+(fil.length===1?'':'s');
+  var h='';
+  fil.forEach(function(p,i){
+    var ps=p.slug||('post-'+p.id);
+    h+=`<div class="pcard" onclick="openP('${p.id}')" tabindex="0"><div class="pimg ${BG[i%BG.length]}">${p.emoji}</div><div class="pbody"><div class="bcat">${p.category}</div><h3>${p.title}</h3><p>${p.excerpt}</p><div class="pmeta"><span>${p.date}</a><span class="rtg">${p.readtime}</span><a href="/blog/${ps}.html" class="plink" onclick="event.stopPropagation()" title="Open standalone page" target="_blank">↗</a></div></div></div>`;});
+  document.getElementById('pgrid').innerHTML=h||'';
+  document.getElementById('nores').style.display=fil.length?'none':'block';
 }
-function filterPosts(){render();}
+function renderSidebar(){
+  var t=document.getElementById('stl');allP.slice(0,5).forEach(function(p){var ps=p.slug||('post-'+p.id);t.innerHTML+=`<a href="/blog/${ps}.html">${p.title}</a>`;});
+  var cats=[...new Set(allP.map(function(p){return p.category;}))]
+  var c=document.getElementById('cattl');cats.forEach(function(cat){c.innerHTML+=`<a href="#" onclick="setCat('${cat}',null);return false;">${cat}</a>`;});
+}
+function setCat(c,btn){curCat=c;document.querySelectorAll('.cat').forEach(function(b){b.classList.remove('ac');});if(btn)btn.classList.add('ac');renderGrid();}
+function filterP(){renderGrid();}
+function openP(id){
+  var p=allP.find(function(x){return x.id===id;});if(!p)return;
+  var ps=p.slug||('post-'+p.id);
+  document.getElementById('mcat').textContent=p.category;
+  document.getElementById('mtit').textContent=p.title;
+  document.getElementById('mmeta').innerHTML='<span>'+p.date+'</a><span>·</span><span>'+p.readtime+'</span><span>·</span><span>By '+p.author+'</span>';
+  document.getElementById('mb').innerHTML=p.content+'<div style="margin-top:20px;text-align:center;padding-top:18px;border-top:2px solid var(--pl)"><a href="/blog/'+ps+'.html" style="display:inline-flex;align-items:center;gap:6px;background:var(--p);color:#fff;padding:10px 24px;border-radius:100px;font-size:13px;font-weight:700;text-decoration:none" target="_blank">Open standalone page ↗</a></div><div style="background:var(--bga);border:2px solid var(--pl);border-radius:10px;padding:14px;margin-top:16px;font-size:13px;color:var(--t3)"><strong>Note:</strong> This guide is for information only. For personalised security advice, consult a qualified cybersecurity professional.</div>';
+  document.getElementById('modal').classList.add('op');
+  document.body.style.overflow='hidden';
+}
+function closeM(){document.getElementById('modal').classList.remove('op');document.body.style.overflow='';}
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeM();});
+
 </script>
 </body></html>
