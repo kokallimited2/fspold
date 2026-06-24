@@ -42,12 +42,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://freestrongpassword.com/blog/public-wifi-safety-guide-beginners.html</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://freestrongpassword.com/blog/carnival-cruise-data-breach-6-million-passengers.html</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -148,9 +142,16 @@
     <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-  </url>  <url>
+  </url>
+  <url>
     <loc>https://freestrongpassword.com/blog/summer-break-internet-safety-family-guide-2026.html</loc>
     <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://freestrongpassword.com/blog/how-to-check-if-password-has-been-pwned.html</loc>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
