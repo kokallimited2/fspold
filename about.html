@@ -27,10 +27,49 @@
   }]
   </script>
 <style>
-:root{--bg:#f8faf8;--bg2:#f1f5f1;--bg3:#fff;--card:#fff;--card2:#f0faf0;--p:#16a34a;--pd:#15803d;--pl:rgba(22,163,74,.1);--t:#1e293b;--t2:#334155;--t3:#64748b;--t4:#94a3b8;--bd:#dde3dd;--bd2:#c7d2c7;--rad:12px;--rads:6px;--sh:0 1px 3px rgba(0,0,0,.06),0 2px 10px rgba(22,163,74,.08)}
+/* ── Site-wide variables ── */
+:root{--p:#16a34a;--pd:#15803d;--pl:#dcfce7;--pll:#f0fdf4;--acc:#ea580c;--bg:#fffef7;--bga:#f0fdf4;--t:#1c1917;--t2:#44403c;--t3:#78716c;--bd:#e7e5e4;--rad:18px;--sh:0 2px 8px rgba(0,0,0,.06);--shm:0 8px 24px rgba(0,0,0,.1)}
+/* ── About page variables ── */
+:root{--bg2:#f1f5f1;--bg3:#fff;--card:#fff;--card2:#f0faf0;--t4:#94a3b8;--bd2:#c7d2c7;--rads:6px}
 *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
-body{font-family:Nunito,system-ui,sans-serif;background:var(--bg);color:var(--t);line-height:1.7;font-size:15px}
-.wrap{max-width:860px;margin:0 auto;padding:30px 20px 60px}
+body{font-family:'Nunito',system-ui,sans-serif;background:var(--bg);color:var(--t);line-height:1.65}
+a{color:var(--p)}a:hover{text-decoration:underline}strong{color:var(--t)}
+code{font-size:.82em;background:#f0fdf4;color:var(--pd);padding:1px 5px;border-radius:4px;border:1px solid #bbf7d0}
+
+/* ── COOKIE BANNER ── */
+#ck{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:3px solid var(--p);z-index:9999;display:none;padding:14px 22px;box-shadow:0 -4px 16px rgba(0,0,0,.08)}
+.cki{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+#ck p{font-size:13px;color:var(--t2);flex:1}#ck a{color:var(--p)}
+.ckb{display:flex;gap:8px}
+.ckac{background:var(--p);color:#fff;border:none;padding:8px 18px;border-radius:100px;cursor:pointer;font-size:13px;font-weight:700;font-family:inherit}
+.ckdc{background:#fff;color:var(--t3);border:1.5px solid var(--bd);padding:8px 14px;border-radius:100px;cursor:pointer;font-size:13px;font-family:inherit}
+
+/* ── HEADER / NAV ── */
+header{background:#fff;border-bottom:3px solid var(--p);position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.06)}
+.hi{max-width:1100px;margin:0 auto;padding:0 22px;display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.ltx{font-size:17px;font-weight:900;color:var(--t);letter-spacing:-.5px}
+.ltx .g{color:var(--p)}.ltx .o{color:var(--acc)}
+nav{display:flex;align-items:center;gap:4px}
+nav a{color:var(--t2);text-decoration:none;padding:7px 12px;border-radius:100px;font-size:13px;font-weight:600;transition:all .15s}
+nav a:hover{background:var(--pll);color:var(--pd);text-decoration:none}
+nav a.cur{background:var(--pll);color:var(--pd)}
+.ncta{background:var(--p)!important;color:#fff!important}
+.ncta:hover{background:var(--pd)!important}
+.hbg{display:none;background:none;border:none;cursor:pointer;color:var(--t);font-size:22px}
+
+/* ── FOOTER ── */
+footer{background:var(--t);color:#fff;padding:44px 0 22px}
+.fgr{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:28px;margin-bottom:28px}
+.fb p{color:rgba(255,255,255,.5);font-size:13px;margin-top:10px;line-height:1.7}
+.fc h4{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;color:rgba(255,255,255,.35);margin-bottom:11px}
+.fc ul{list-style:none}.fc li{margin-bottom:8px}
+.fc a{color:rgba(255,255,255,.58);text-decoration:none;font-size:13px}.fc a:hover{color:#86efac;text-decoration:none}
+.fbot{border-top:1px solid rgba(255,255,255,.1);padding-top:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.fbot p,.fbot a{font-size:12px;color:rgba(255,255,255,.35);text-decoration:none}.fbot a:hover{color:#86efac}
+
+/* ── ABOUT PAGE CONTENT ── */
+.awrap{max-width:860px;margin:0 auto;padding:30px 20px 60px}
 h1{font-size:clamp(1.4rem,4vw,2rem);font-weight:900;color:var(--t);margin-bottom:8px;display:flex;align-items:center;gap:12px}
 h1 .ico{font-size:28px}
 .sub{color:var(--t3);font-size:15px;margin-bottom:28px}
@@ -52,11 +91,39 @@ h1 .ico{font-size:28px}
 .links{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
 .links a{background:var(--card2);border:1px solid var(--bd);border-radius:var(--rads);padding:8px 16px;font-size:13px;font-weight:600;color:var(--p);text-decoration:none;transition:.2s}
 .links a:hover{background:var(--p);color:#fff;border-color:var(--p);transform:translateY(-1px)}
-@media(max-width:600px){.wrap{padding:20px 16px 40px}h1{font-size:20px}.sec{padding:20px 18px}.grid2{grid-template-columns:1fr}}
+@media(max-width:768px){nav{display:none;position:absolute;top:68px;left:0;right:0;background:#fff;padding:12px;flex-direction:column;border-bottom:2px solid var(--pl)}nav.op{display:flex}.hbg{display:block}.fgr{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.awrap{padding:20px 16px 40px}h1{font-size:20px}.sec{padding:20px 18px}.grid2{grid-template-columns:1fr}}
+@media(max-width:480px){.fgr{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<div class="wrap">
+
+<div id="ck" role="dialog" aria-label="Cookie consent">
+  <div class="cki">
+    <p>We use essential cookies to keep the site working and optional analytics cookies to improve our guides. See our <a href="cookie-policy.html">Cookie Policy</a> and <a href="privacy-policy.html">Privacy Policy</a>.</p>
+    <div class="ckb"><button class="ckdc" onclick="ckC('decline')">No thanks</button><button class="ckac" onclick="ckC('accept')">That's fine ✓</button></div>
+  </div>
+</div>
+
+<header>
+  <div class="hi">
+    <a href="/" class="logo" aria-label="Free Strong Password Home">
+      <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#16a34a"/><path d="M15 20.5l3.5 3.5L26 16" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="ltx"><span class="g">Free</span>Strong<span class="o">Password</span></span>
+    </a>
+    <nav id="mn">
+      <a href="/">Generator</a>
+      <a href="blog.html">Guides</a>
+      <a href="/#faq">FAQ</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html" class="cur">About</a>
+      <a href="/" class="ncta">Get My Password ↗</a>
+    </nav>
+    <button class="hbg" onclick="document.getElementById('mn').classList.toggle('op')" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<div class="awrap">
 <div class="bread"><a href="/">Home</a> <span>›</span> About Us</div>
 <h1><span class="ico">🛡️</span> About Free Strong Password Generator</h1>
 <p class="sub">Plain English password security. No jargon. No complexity. Just tools that work.</p>
@@ -96,10 +163,33 @@ h1 .ico{font-size:28px}
 <a href="/blog.html">📝 Blog</a>
 </div>
 </div>
+</div>
 
-<div class="sec" style="text-align:center;border:2px dashed var(--bd2);background:var(--card2)">
-<p style="font-size:13px;color:var(--t3);margin:0">© 2026 FreeStrongPassword.com · Kokal Operations Ltd, United Kingdom</p>
-</div>
-</div>
+<footer>
+  <div class="wrap" style="max-width:1100px;margin:0 auto;padding:0 22px">
+    <div class="fgr">
+      <div class="fb">
+        <a href="/" class="logo" style="text-decoration:none">
+          <svg width="24" height="24" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="19" fill="#16a34a"/><path d="M14 20l4 4 8-8" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="ltx" style="font-size:14px;color:#fff"><span style="color:#86efac">Free</span>Strong<span style="color:#fdba74">Password</span></span>
+        </a>
+        <p>Free password help for everyone — plain English, no jargon, always free.</p>
+      </div>
+      <div class="fc"><h4>Tools</h4><ul><li><a href="/">Password Wizard</a></li><li><a href="/#tools">More Tools</a></li></ul></div>
+      <div class="fc"><h4>Guides</h4><ul><li><a href="blog.html">All Guides</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="fc"><h4>Legal</h4><ul><li><a href="privacy-policy.html">Privacy Policy</a></li><li><a href="cookie-policy.html">Cookies</a></li><li><a href="terms.html">Terms of Use</a></li><li><a href="affiliate-disclosure.html">Affiliate Disclosure</a></li></ul></div>
+    </div>
+    <div class="fbot">
+      <p>© 2026 FreeStrongPassword.com · Operated by Kokal Operations Ltd, United Kingdom</p>
+      <p><a href="privacy-policy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="affiliate-disclosure.html">Affiliates</a> · <a href="cookie-policy.html">Cookies</a></p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){if(!localStorage.getItem('fsp-ck'))document.getElementById('ck').style.display='block';})();
+function ckC(v){localStorage.setItem('fsp-ck',v);document.getElementById('ck').style.display='none';}
+</script>
+
 </body>
 </html>

@@ -856,8 +856,14 @@ function doPhrase(){
   var phrase=words.join('');
   if(addN){var na=new Uint32Array(1);crypto.getRandomValues(na);phrase+=String(na[0]%90+10);}
   document.getElementById('ppo').value=phrase;
-  // Passphrase entropy approx: log2(wordlist^words) + optional digits
-  var ent=Math.round(wc*Math.log2(WL.length)+(addN?Math.log2(90):0));
+  // Calculate strength from actual passphrase content — accounts for word count AND mixed case
+  var ph=phrase;
+  var hasUpper= ph!==ph.toLowerCase();
+  var hasLower= ph!==ph.toUpperCase();
+  var hasDigit= /\d/.test(ph);
+  var pool=0; if(hasUpper)pool+=26; if(hasLower)pool+=26; if(hasDigit)pool+=10;
+  pool=Math.max(pool,1);
+  var ent=Math.round(ph.length*Math.log2(pool));
   showStrengthEnt(ent,'psbf','psvl','psmsg');
   resetCopy('pcpb');
 }
