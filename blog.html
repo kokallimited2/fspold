@@ -247,7 +247,7 @@ function renderFeat(){
   var fp=allP.find(function(p){return p.featured;})||allP[0];
   if(!fp)return;
   var fs=fp.slug||('post-'+fp.id);
-  document.getElementById('featWrap').innerHTML=`<div class="ftag">⭐ FEATURED GUIDE</div><div class="fcard"><div class="fcimg">${fp.emoji}</div><div class="fcbody"><div class="bcat">${fp.category}</div><h2>${fp.title}</h2><p>${fp.excerpt}</p><div class="meta"><span>${fp.date}</a><span>·</span><span>${fp.readtime}</span><span>·</span><span>By ${fp.author}</span></div><div style="display:flex;gap:8px;align-items:center"><button class="rbtn" onclick="openP('${fp.id}')">Read full guide →</button><a href="/blog/${fs}.html" class="rbtn" style="background:transparent;border:2px solid var(--p);color:var(--p)" target="_blank">Open page ↗</a></div></div></div>`;
+  document.getElementById('featWrap').innerHTML=`<div class="ftag">⭐ FEATURED GUIDE</div><div class="fcard"><div class="fcimg">${fp.emoji}</div><div class="fcbody"><div class="bcat">${fp.category}</div><h2>${fp.title}</h2><p>${fp.excerpt}</p><div class="meta"><span>${fp.date}</span><span>·</span><span>${fp.readtime}</span><span>·</span><span>By ${fp.author}</span></div><div style="display:flex;gap:8px;align-items:center"><button class="rbtn" onclick="openP('${fp.id}')">Read full guide →</button><a href="/blog/${fs}.html" class="rbtn" style="background:transparent;border:2px solid var(--p);color:var(--p)" target="_blank">Open page ↗</a></div></div></div>`;
 }
 function renderGrid(){
   var q=document.getElementById('srch').value.toLowerCase();
@@ -261,7 +261,7 @@ function renderGrid(){
   var h='';
   fil.forEach(function(p,i){
     var ps=p.slug||('post-'+p.id);
-    h+=`<div class="pcard" onclick="openP('${p.id}')" tabindex="0"><div class="pimg ${BG[i%BG.length]}">${p.emoji}</div><div class="pbody"><div class="bcat">${p.category}</div><h3>${p.title}</h3><p>${p.excerpt}</p><div class="pmeta"><span>${p.date}</a><span class="rtg">${p.readtime}</span><a href="/blog/${ps}.html" class="plink" onclick="event.stopPropagation()" title="Open standalone page" target="_blank">↗</a></div></div></div>`;});
+    h+=`<div class="pcard" onclick="openP('${p.id}')" tabindex="0"><div class="pimg ${BG[i%BG.length]}">${p.emoji}</div><div class="pbody"><div class="bcat">${p.category}</div><h3>${p.title}</h3><p>${p.excerpt}</p><div class="pmeta"><span>${p.date}</span><span class="rtg">${p.readtime}</span><a href="/blog/${ps}.html" class="plink" onclick="event.stopPropagation()" title="Open standalone page" target="_blank">↗</a></div></div></div>`;});
   document.getElementById('pgrid').innerHTML=h||'';
   document.getElementById('nores').style.display=fil.length?'none':'block';
 }
@@ -277,7 +277,7 @@ function openP(id){
   var ps=p.slug||('post-'+p.id);
   document.getElementById('mcat').textContent=p.category;
   document.getElementById('mtit').textContent=p.title;
-  document.getElementById('mmeta').innerHTML='<span>'+p.date+'</a><span>·</span><span>'+p.readtime+'</span><span>·</span><span>By '+p.author+'</span>';
+  document.getElementById('mmeta').innerHTML='<span>'+p.date+'</span><span>·</span><span>'+p.readtime+'</span><span>·</span><span>By '+p.author+'</span>';
   document.getElementById('mb').innerHTML=p.content+'<div style="margin-top:20px;text-align:center;padding-top:18px;border-top:2px solid var(--pl)"><a href="/blog/'+ps+'.html" style="display:inline-flex;align-items:center;gap:6px;background:var(--p);color:#fff;padding:10px 24px;border-radius:100px;font-size:13px;font-weight:700;text-decoration:none" target="_blank">Open standalone page ↗</a></div><div style="background:var(--bga);border:2px solid var(--pl);border-radius:10px;padding:14px;margin-top:16px;font-size:13px;color:var(--t3)"><strong>Note:</strong> This guide is for information only. For personalised security advice, consult a qualified cybersecurity professional.</div>';
   document.getElementById('modal').classList.add('op');
   document.body.style.overflow='hidden';
